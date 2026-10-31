@@ -169,3 +169,16 @@ account/repository prefixes. Projects still contains 11 funded-project list
 items and the original demo. Local Git remotes and the repository homepage field
 were updated to the new organization location. Browser layout/playback QA is
 not newly claimed. Earlier personal-account deployment notes are historical.
+
+
+## Advisor-requested multilingual block removal
+
+Production build and production/offline local-link checks pass. Projects retains
+11 funding records and one concise Gaokao application, with no multilingual
+application block or video. Demo MP4 and poster files are absent from current
+source, production, preview and published-branch files. GitHub Pages deployment
+`41179750968` for published commit `8e81591` succeeded. Unauthenticated GET to
+https://xcfeng-hit.github.io/projects/ returned 200 and confirmed only the Gaokao
+application heading, no video, and all 11 funding records. Historical deployment
+notes above are superseded for the removed application. No history rewrite or
+new browser-layout verification is claimed.
