@@ -1,10 +1,11 @@
 - date: '2026'
-  text: ImplicitMemBench investigates implicit memory and behavioral adaptation in
-    language models.
+  text: ImplicitMemBench received the Best Resource Paper Award at ACL 2026.
   url: https://aclanthology.org/2026.acl-long.1301/
+- date: '2026'
+  text: Recognized as an Outstanding Reviewer at EMNLP 2026.
+  url: https://2026.emnlp.org/program/awards_reviewers/
 - date: '2025'
-  text: Our ACL paper studies contextual faithfulness through retrieval heads-induced
-    optimization.
+  text: Our contextual faithfulness paper was selected as an ACL 2025 SAC Highlight.
   url: https://aclanthology.org/2025.acl-long.826/
 - date: '2024'
   text: Our work applies the information bottleneck perspective to noise filtering

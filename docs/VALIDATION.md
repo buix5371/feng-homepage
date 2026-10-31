@@ -32,3 +32,13 @@ correctly; figure captions, alt text, dimensions, and full-size links are presen
 The real Jekyll build and internal-link checks pass after this change. Browser
 layout inspection was attempted but localhost access timed out; no desktop or
 mobile visual pass is claimed.
+
+## PPT content audit update
+
+Re-read all 23 slide text layers and inspected the MUG, CCL and ACL award
+certificates plus the ACL SAC Highlight screenshot. All 11 projects from slide 5
+are now represented; expanded bibliography contains 68 records and three paper
+recognition labels. The CCL author sequence and TOIS publication year were checked
+in generated HTML. See CONTENT_AUDIT.md for scope and remaining bibliography limits.
+Nine newly added resource URLs returned 200; publisher automated access returned
+403, so the survey retains an accessible arXiv landing page and PDF.

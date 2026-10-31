@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://aclanthology.org/2021.ccl-1.86/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2021.ccl-1.86.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://2026.emnlp.org/program/awards_reviewers/",
+    "status": 200
+  },
+  {
+    "url": "https://2025.aclweb.org/program/awards/",
+    "status": 200
+  },
+  {
+    "url": "https://github.com/OrangeInSouth/DeePEn",
+    "status": 200
+  },
+  {
+    "url": "https://doi.org/10.1145/3703155",
+    "status": 403
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/d8a6eb79f8ccaacbe7198a5caf3a0323-Abstract-Conference.html",
+    "status": 200
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/d8a6eb79f8ccaacbe7198a5caf3a0323-Paper-Conference.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/dbae915128892556134f1c5375855590-Abstract-Conference.html",
+    "status": 200
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/dbae915128892556134f1c5375855590-Paper-Conference.pdf",
+    "status": 200
+  }
+]

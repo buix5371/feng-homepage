@@ -54,7 +54,7 @@ For a production check: `bundle exec jekyll build`, then
 
 The Ruby 3.3.6 / Jekyll 4.3.4 production build passed locally, including six
 pages, full author rendering, five selected publications, and internal links.
-65 publication records are included. 133 article, institution, and PDF links returned HTTP 200.
+68 publication records are included. 133 article, institution, and PDF links returned HTTP 200.
 Browser-based visual/interaction checks were unavailable because browser control
 was stopped by its URL safety check. The source has been uploaded to the owner's private
 repository. Automated workflow activation and public deployment are deferred.
@@ -65,3 +65,7 @@ On Windows, if a workspace path containing spaces causes `bundle exec` to fail
 with a RUBYOPT error, use the same native Jekyll build API:
 `ruby scripts/build.rb`.
 
+
+## 内容完整性检查
+
+`docs/CONTENT_AUDIT.md` 对照 PPT 全部 23 页记录覆盖情况、补充内容和保留边界；论文目录为核实记录，不能当作全部职业生涯论文总数。

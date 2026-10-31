@@ -7,6 +7,7 @@ description: Conference service, professional societies, academic events, and in
 
 - **ACL, 2023–2026:** Area Chair / Senior Area Chair appointments within this period.
 - **EMNLP, 2022 and 2024:** Area Chair.
+- **EMNLP, 2026:** [Outstanding Reviewer](https://2026.emnlp.org/program/awards_reviewers/).
 - **AAAI, 2022:** Senior Program Committee member.
 
 ## Professional Societies
@@ -22,6 +23,8 @@ description: Conference service, professional societies, academic events, and in
 - **YSSNLP 2026**, Lanzhou: General Chair.
 - **YSSNLP 2025**, Dalian: General Chair.
 - **CCL 2023**, Harbin: Local Chair and Organizing Chair.
+- **Technical Committee on Large Models and Generation:** Organization of a strategic workshop, Harbin, June 2025.
+- **Youth Working Committee:** Organization of a strategic workshop, Xiamen, December 2025.
 - **GenTalk and frontier research forums on large language models:** Organization of a continuing seminar series, 2022–2026.
 
 ## Invited Talks

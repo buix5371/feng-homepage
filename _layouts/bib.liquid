@@ -5,6 +5,7 @@
   <div class="paper-content"><h3><a href="{{ entry.url }}">{{ entry.title }}</a></h3>
     <p class="authors">{% for author in entry.author_array %}{% if author.first == 'Xiaocheng' and author.last == 'Feng' %}<strong>{{ author.first }} {{ author.last }}</strong>{% else %}{{ author.first }} {{ author.last }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
     <p class="venue">{% if entry.booktitle %}{{ entry.booktitle }}{% else %}{{ entry.journal }}{% endif %} · {{ entry.year }}</p>
+    {% if entry.award %}<p class="paper-award">{% if entry.award_url %}<a href="{{ entry.award_url }}">{{ entry.award }} ↗</a>{% else %}{{ entry.award }}{% endif %}</p>{% endif %}
     <div class="paper-links"><a href="{{ entry.url }}">Paper ↗</a>{% if entry.pdf %}<a href="{{ entry.pdf }}">PDF ↗</a>{% endif %}{% if entry.code %}<a href="{{ entry.code }}">Code ↗</a>{% endif %}</div>
   </div>
 </article>

@@ -14,13 +14,12 @@ in the website or publication package. Public content uses professional facts on
 | https://rsc.hit.edu.cn/2025/0422/c10875a367129/page.htm | School appointment | Corroborates School of Artificial Intelligence |
 | https://ir.hit.edu.cn/19606/list.htm | Text Generation group leadership and collaborations | Official group link used; older funding counts not copied |
 | https://aclanthology.org/people/xiaocheng-feng/ | Bibliography | Imported all 64 BibTeX records linked on the retrieved author page; the initially timed-out record was successfully retried. This is not a claim to exhaust all publications |
-| https://arxiv.org/abs/2311.05232 | Hallucination survey | Uses 2023 preprint citation and full author list; journal version not duplicated |
+| https://arxiv.org/abs/2311.05232 | Hallucination survey | Now cites the 2025 TOIS journal version verified through Crossref; arXiv PDF retained; no duplicate record |
 
 Portrait: supplied PPT, slide 3, original embedded image (335 × 433). The website banner image was inspected and rejected as a portrait.
 
 No Scholar profile identifier was verified, so no guessed Google Scholar URL is
-shown. No paper award badge is shown without an independently verified award
-record. No personal citation counts, CCF rankings, funding totals, or celebrity
+shown. Paper recognition is now shown where verified by official conference records or inspected certificates; see CONTENT_AUDIT.md. No personal citation counts, CCF rankings, funding totals, or celebrity
 endorsements are published. The source PPT's young innovation award cover is not
 treated as evidence that the award has already been won.
 
@@ -50,3 +49,5 @@ certificates, private application documents, and endorsement portraits are not
 used as research illustrations. Fine-Mem and ImplicitMemBench are distinguished.
 
 Research Group destination updated to https://hit-scir-tg.netlify.app/ at the owner's request on 2026-10-31. The older HIT page remains a historical factual source.
+
+Content audit expanded verified bibliography to 68 records, including two NeurIPS papers and the CCL 2021 commonsense paper. Full sources, name corrections, omissions and editorial boundaries are recorded in CONTENT_AUDIT.md.
