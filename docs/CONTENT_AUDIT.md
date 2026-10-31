@@ -59,3 +59,13 @@ credit. No stand-alone paper-method figures remain on Projects. The Gaokao syste
 writing collaborations, NPC/CPPCC workflows, Qiyuan/Jiuge model and translation
 service platforms from slides 18–19 remain covered. No grant-to-product mapping
 has been inferred beyond the general multilingual platform collaboration.
+
+
+## Owner preference: project lists with two illustrated applications
+
+All 11 slide-5 records remain, now in simple lists rather than cards. They appear
+first. Only the slide-18 writing application and slide-19 multilingual application
+have illustrations: an explicitly summarized English application diagram based
+on slide 18, and the already sourced official PCL platform screenshot. All prior
+application facts are retained in the two short narratives. No extra monetary
+statistics, private certificate, or whole Chinese slide screenshot is published.

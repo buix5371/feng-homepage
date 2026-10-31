@@ -92,3 +92,16 @@ the owner's latest preference; Research topics retain the figure requirement.
 Both external destinations were fetched successfully; the group link uses the
 verified `research-projects` anchor. No browser responsive-layout verification
 is claimed; previous local browser preview remained unavailable.
+
+
+## List layout with two application figures — owner revision
+
+Production build and both production/offline internal-link checks pass. All 11
+records render as `ul.funding-list > li.funded-project`, retaining source titles,
+sponsors, periods and roles. Exactly two application entries each have one image,
+after the funding lists. No former grid-card or platform-feature containers
+remain. The new English writing overview SVG was rendered with CairoSVG and
+visually inspected: text and rows fit, with no clipping. Its source is PPT slide
+18; it is a summary graphic rather than an original system screenshot. The PCL
+image and source link remain. Browser responsive-layout verification remains
+unavailable; no new browser QA is claimed.

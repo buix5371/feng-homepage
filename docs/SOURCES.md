@@ -111,3 +111,22 @@ was inspected but contains no suitable application screenshot. Original PPT,
 full downloaded pages, and public talk PDF are not included in the repository.
 No images from unrelated essay systems, stock imagery, or illustrative paper
 methods are used as project product screenshots.
+
+
+## List-based Projects page — 2026-10-31, owner revision
+
+The owner requested a simple funding list, with illustrations only for the two
+slide-18/19 applications. The 11 funding records now render as semantic list
+items, with period, title, sponsor/program, and personal role; all funding card
+styles have been removed. The lists appear before Selected Applications.
+
+`assets/img/projects/writing-applications.svg` is a newly typeset English overview,
+not an extracted original or a software screenshot. Its content comes directly
+from PPT slide 18: Gaokao argumentative essay generation; third-party evaluation
+in 2022; iFLYTEK meeting summaries/document writing; Huawei length-controlled
+summaries/text compression; Tencent table-based sports reporting/fiction
+writing. It uses no invented performance figures, inferred causal arrows or
+product UI. The private certificate with contact details/signatures is not used.
+The public PCL whole-image platform screenshot remains beside the multilingual
+application, credited as partner platform interfaces. Two application narratives
+retain Qiyuan/Jiuge, language-service platforms and NPC/CPPCC workflows.
