@@ -1,0 +1,12 @@
+<!doctype html>
+<!-- Adapted from al-folio v0.14.6; see LICENSE and docs/TEMPLATE.md. -->
+<html lang="{{ site.lang }}">
+<head>{% include head.liquid %}</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {% include header.liquid %}
+  <main id="main" class="container" tabindex="-1">{{ content }}</main>
+  {% include footer.liquid %}
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

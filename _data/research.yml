@@ -1,0 +1,52 @@
+- id: representation
+  number: '01'
+  title: Representation Learning for Text Generation
+  short: Connecting languages, structured data, and long documents through shared
+    representations.
+  body: Text generation begins with understanding the information a model receives.
+    My research explores how to represent inputs that differ in language, structure,
+    and length, including multilingual text, tables, and long documents. A central
+    question is how to align these inputs with the representations used by generative
+    models while preserving the information needed for faithful output. This line
+    of work includes table-to-text generation, structure-aware modeling, and learning
+    from limited examples. TableGPT studies how table structure reconstruction and
+    content matching can support few-shot generation, connecting structured records
+    with natural language descriptions.
+  refs:
+  - gong-etal-2020-tablegpt
+  - feng-etal-2020-codebert
+- id: knowledge
+  number: '02'
+  title: Knowledge-Enhanced Language Models
+  short: Integrating knowledge and complementary representations into language understanding
+    and generation.
+  body: Language models must connect their learned representations with knowledge
+    expressed in different forms. My work investigates how knowledge and complementary
+    data sources can be incorporated during training and inference to support language
+    understanding and generation. CodeBERT learns shared representations of programming
+    and natural languages, with applications in code search and documentation generation.
+    Related work examines how retrieved information can be filtered and used effectively
+    rather than passed to a model indiscriminately. Across these settings, the goal
+    is to make relevant information available in a form that supports the task, while
+    limiting interference from irrelevant or noisy evidence.
+  refs:
+  - feng-etal-2020-codebert
+  - zhu-etal-2024-information
+- id: trustworthy
+  number: '03'
+  title: Trustworthy Text Generation
+  short: Improving factual grounding, contextual faithfulness, and memory in language
+    models.
+  body: Fluent text is not necessarily reliable text. My research examines why language
+    models hallucinate and how generated responses can remain faithful to evidence
+    and consistent with context. This includes a survey of hallucination in large
+    language models, retrieval-augmented generation, and memory mechanisms for sustained
+    interaction. Recent work studies retrieval heads as a means of improving contextual
+    faithfulness and develops benchmarks for implicit memory, extending evaluation
+    beyond explicit recall. The broader aim is to understand the limits of current
+    models and develop methods and evaluations that support reliable information use
+    across generation and interaction.
+  refs:
+  - huang2023hallucination
+  - huang-etal-2025-improving
+  - qin-etal-2026-implicitmembench

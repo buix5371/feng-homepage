@@ -1,0 +1,1 @@
+<div class="research-grid">{% for topic in site.data.research %}<a class="research-card" href="{{ '/research/' | relative_url }}#{{ topic.id }}"><span class="topic-number">{{ topic.number }}</span><h3>{{ topic.title }}</h3><p>{{ topic.short }}</p><span class="card-arrow" aria-hidden="true">↗</span></a>{% endfor %}</div>

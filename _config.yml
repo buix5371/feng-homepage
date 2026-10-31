@@ -1,0 +1,35 @@
+title: Xiaocheng Feng
+first_name: Xiaocheng
+last_name: Feng
+lang: en
+url: https://buix5371.github.io
+baseurl: /feng-homepage
+description: Xiaocheng Feng — natural language processing, text generation, and trustworthy language models at Harbin Institute of Technology.
+email: fengxiaocheng1988@gmail.com
+timezone: Asia/Shanghai
+markdown: kramdown
+include: [_pages]
+kramdown:
+  parse_block_html: true
+plugins:
+  - jekyll-scholar
+  - jekyll-sitemap
+scholar:
+  last_name: Feng
+  first_name: Xiaocheng
+  source: ./_bibliography
+  bibliography: papers.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  bibliography_list_tag: ol
+  bibliography_item_tag: li
+  bibliography_group_tag: h2
+exclude: [Gemfile, Gemfile.lock, README.md, docs, scripts, vendor, preview, .bundle, .github, .gitignore]
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: page

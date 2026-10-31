@@ -1,0 +1,56 @@
+name: Build and deploy homepage
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish to GitHub Pages (requires Pages to be configured)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.6'
+          bundler-cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build with repository-aware URL
+        env:
+          JEKYLL_ENV: production
+          REPO_NAME: ${{ github.event.repository.name }}
+          OWNER_NAME: ${{ github.repository_owner }}
+        run: |
+          BASE="/$REPO_NAME"
+          if [ "${REPO_NAME,,}" = "${OWNER_NAME,,}.github.io" ]; then BASE=""; fi
+          bundle exec jekyll build --baseurl "$BASE" --url "https://$OWNER_NAME.github.io"
+      - name: Check generated pages
+        run: python scripts/check_site.py _site
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'workflow_dispatch' && inputs.publish
+        with:
+          path: _site
+  deploy:
+    if: github.event_name == 'workflow_dispatch' && inputs.publish
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

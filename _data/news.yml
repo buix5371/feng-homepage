@@ -1,0 +1,12 @@
+- date: '2026'
+  text: ImplicitMemBench investigates implicit memory and behavioral adaptation in
+    language models.
+  url: https://aclanthology.org/2026.acl-long.1301/
+- date: '2025'
+  text: Our ACL paper studies contextual faithfulness through retrieval heads-induced
+    optimization.
+  url: https://aclanthology.org/2025.acl-long.826/
+- date: '2024'
+  text: Our work applies the information bottleneck perspective to noise filtering
+    in retrieval-augmented generation.
+  url: https://aclanthology.org/2024.acl-long.59/

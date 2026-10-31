@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'jekyll', '= 4.3.4'
+gem 'jekyll-scholar', '= 7.1.3'
+gem 'jekyll-sitemap', '= 1.4.0'
+gem 'webrick', '= 1.8.2'
+gem 'tzinfo', '= 2.0.6'
+gem 'tzinfo-data', '= 1.2025.2'

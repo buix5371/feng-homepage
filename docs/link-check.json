@@ -1,0 +1,600 @@
+[
+  {
+    "url": "https://aclanthology.org/2020.coling-main.179/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2020.findings-emnlp.139/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2020.findings-emnlp.262/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2021.acl-long.117/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2021.emnlp-main.265/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2022.dialdoc-1.1/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.458/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.67/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2022.findings-acl.272/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2023.acl-long.211/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2023.acl-long.704/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-acl.305/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-emnlp.453/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-emnlp.839/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.59/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.648/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.ccl-2.9/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.223/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.289/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.414/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.603/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-acl.838/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-emnlp.582/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.lrec-main.696/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2024.wmt-1.21/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.1199/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.640/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.780/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.825/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.826/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.933/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.coling-main.358/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.coling-main.637/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.emnlp-main.1450/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.251/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.631/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.666/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1138/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1250/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1301/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1367/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1375/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.897/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.900/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.emnlp-main.1192/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.1504/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.1857/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.2058/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.374/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.699/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.712/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-emnlp.1612/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.tacl-1.79/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2026.wmt-main.61/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/C16-1045/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/C16-1276/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/C16-1311/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/D18-1048/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/D19-1299/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/D19-1310/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/P16-1025/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/P16-2011/",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/P18-1034/",
+    "status": 200
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.05232",
+    "status": 200
+  },
+  {
+    "url": "https://homepage.hit.edu.cn/fengxiaocheng",
+    "status": 200
+  },
+  {
+    "url": "https://ir.hit.edu.cn/19606/list.htm",
+    "status": 200
+  },
+  {
+    "url": "https://sai.hit.edu.cn/ldbz/list.htm",
+    "status": 200
+  },
+  {
+    "url": "https://aclanthology.org/2020.coling-main.179.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2020.findings-emnlp.139.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2020.findings-emnlp.262.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2021.acl-long.117.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2021.emnlp-main.265.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2022.dialdoc-1.1.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.458.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.67.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2022.findings-acl.272.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2023.acl-long.211.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2023.acl-long.704.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-acl.305.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-emnlp.453.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-emnlp.839.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.59.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.648.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.ccl-2.9.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.223.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.289.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.414.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.emnlp-main.603.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-acl.838.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-emnlp.582.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.lrec-main.696.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2024.wmt-1.21.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.1199.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.640.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.780.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.825.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.826.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.933.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.coling-main.358.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.coling-main.637.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.emnlp-main.1450.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.251.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.631.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.findings-emnlp.666.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1138.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1250.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1301.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1367.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.1375.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.897.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.900.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.emnlp-main.1192.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.1504.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.1857.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.2058.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.374.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.699.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-acl.712.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.findings-emnlp.1612.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.tacl-1.79.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2026.wmt-main.61.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/C16-1045.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/C16-1276.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/C16-1311.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/D18-1048.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/D19-1299.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/D19-1310.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/P16-1025.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/P16-2011.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/P18-1034.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2311.05232",
+    "status": 200,
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://aclanthology.org/2025.emnlp-main.788/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://aclanthology.org/2025.emnlp-main.788.pdf",
+    "status": 200,
+    "content_type": "application/pdf"
+  }
+]
