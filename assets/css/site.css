@@ -14,6 +14,6 @@
 @media(max-width:850px){.application-entry{grid-template-columns:1fr;gap:22px}.application-copy h3{font-size:22px}.application-figure{width:100%;max-width:720px}.application-copy p{max-width:720px}}
 @media(max-width:680px){.funding-section{margin-bottom:32px}.funding-section h2,.application-showcase>h2{font-size:23px;margin-bottom:17px}.page-content li.funded-project{grid-template-columns:1fr;gap:4px;padding:17px 0}.funding-period{padding-top:0;font-size:11px}.funding-description h3{font-size:16px}.funding-description p{font-size:12px}.application-showcase{padding-top:30px}.application-entry{padding:8px 0 28px;gap:20px}.application-entry+.application-entry{padding-top:28px}.application-copy h3{font-size:20px}.application-figure figcaption{padding:11px 13px}}
 
-.application-figure video{display:block;width:100%;height:auto;background:var(--tint)}
+
 
 .application-entry.application-text-only{display:block}.application-text-only .application-copy{max-width:800px}
