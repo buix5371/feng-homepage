@@ -7,6 +7,8 @@ description: Research applications in writing assistance, knowledge-enhanced dia
 
 Writing systems must organize information and adapt their output to a task. My work examines generation from structured inputs, summarization, and controllable text generation. Applications include automated essay writing, document drafting and proofreading, meeting summaries, and length-controlled summarization. TableGPT provides a research example of generating descriptions from tables with limited training examples.
 
+{% include research_figure.liquid file="/assets/img/research/length-controlled-generation.png" width="1365" height="681" alt="Metropolis-Hastings sampling process that combines model likelihood with a target length constraint" title="Length-controlled writing" caption="The original method figure illustrates iterative sampling for generating text with a specified length, supporting length-controlled summarization and instruction following." source_url="https://aclanthology.org/2025.acl-long.825/" source_label="Length Controlled Generation · Figure 1" %}
+
 ### Systems and collaboration
 
 - **Gaokao essay generation:** An end-to-end system for generating argumentative essays for China's national college entrance examination. The work was supported across successive national research programs and underwent third-party evaluation.
@@ -16,7 +18,8 @@ Writing systems must organize information and adapt their output to a task. My w
 
 Related writing and proofreading technologies have been applied in workflows for the National People's Congress and the Chinese People's Political Consultative Conference.
 
-[Read the TableGPT paper](https://aclanthology.org/2020.coling-main.179/)
+[Length-control method](https://aclanthology.org/2025.acl-long.825/) · [Table-to-text generation](https://aclanthology.org/2020.coling-main.179/)
+
 </section>
 
 <section markdown="1" class="project"><p class="label">02 / Grounded interaction</p><h2>Knowledge-Enhanced Dialogue</h2>
@@ -26,11 +29,18 @@ Useful dialogue systems need to draw on relevant knowledge while remaining consi
 {% include research_figure.liquid file="/assets/img/research/retrieval-generation.png" width="1126" height="762" alt="Question-answering example and three ways to combine retrieval and generation" title="Retrieval and generation" caption="Retrieved documents provide evidence for responses; retrieval-generation synergy connects evidence gathering and generation." %}
 
 [Retrieval noise filtering](https://aclanthology.org/2024.acl-long.59/) · [Contextual faithfulness](https://aclanthology.org/2025.acl-long.826/)
+
 </section>
 
 <section markdown="1" class="project"><p class="label">03 / Multilingual communication</p><h2>Multilingual Machine Translation</h2>
 
-My research also addresses multilingual machine translation and continual learning, with the aim of supporting communication across languages. Projects include research on continual learning for multilingual neural machine translation and collaboration on multilingual translation platforms. These efforts connect representation learning with practical translation systems. ### Platforms and research programs
+My research also addresses multilingual machine translation and continual learning, with the aim of supporting communication across languages. Projects include research on continual learning for multilingual neural machine translation and collaboration on multilingual translation platforms. These efforts connect representation learning with practical translation systems.
+
+Our culture-aware translation research also develops CanMT, a benchmark built from literary parallel texts to evaluate culture-specific meaning across languages.
+
+{% include research_figure.liquid file="/assets/img/research/culture-aware-translation.png" width="1356" height="492" alt="CanMT construction pipeline with parallel-text alignment, culture-specific lexicon construction, and human verification" title="Culture-aware multilingual translation" caption="The original CanMT pipeline shows how multilingual literary data is aligned, filtered, and verified for culture-aware translation evaluation." source_url="https://aclanthology.org/2026.acl-long.1367/" source_label="Culture-Aware Machine Translation · Figure 1" %}
+
+### Platforms and research programs
 
 - **Peng Cheng Laboratory:** Collaboration on the multilingual Naohai model and a multilingual translation platform.
 - **Qiyuan Laboratory:** Collaboration on the Jiuge model and multilingual information generation.
@@ -38,4 +48,5 @@ My research also addresses multilingual machine translation and continual learni
 - **Research support:** NSFC-funded continual learning for multilingual neural machine translation (2023–2027), Slavic-language translation research (2023–2025), and Russian-language retrieval and generation under the Heilongjiang Chunyan Program (2025–2027).
 
 [Visit the research group](https://hit-scir-tg.netlify.app/) · [Browse related publications](https://aclanthology.org/people/xiaocheng-feng/)
+
 </section>

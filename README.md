@@ -41,8 +41,8 @@ For a production check: `bundle exec jekyll build`, then
 - 论文：在 `_bibliography/papers.bib` 追加正式 BibTeX。作者使用
   `姓, 名 and 姓, 名`，保留完整顺序。`url` 为正式文章页，`pdf` 可选。
   添加 `selected = {true}` 会出现在首页；首页保持约 5 篇。
-- 动态：修改 `_data/news.yml`，包含 `date`、`text`、`url`，最新放最前；
-  首页最多显示 5 条。文字与日期使用英文。
+- 动态：修改 `_data/news.yml`，包含字符串格式的 `year`、`date`、`text`、`url`，最新放最前；
+  首页只显示当年最多 5 条任职、活动等动态；论文介绍与奖项留在论文区，避免重复。文字与日期使用英文。
 - 研究：正文在 `_pages/research.md`，首页摘要在 `_data/research.yml`。
 - 项目、服务和履历：修改 `_pages/` 对应文件。
 - 照片：替换 `assets/img/portrait.jpg`；保持原文件名与人物比例。

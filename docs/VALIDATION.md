@@ -49,3 +49,19 @@ Removed the two slide-13 schematic components after owner feedback. Four
 substantive slide-16 figures remain. The removed PNGs are no longer present in
 the website source or offline preview. Earlier figure counts describe the
 previous revision, not the current selection.
+
+## Topic illustrations and About updates revision
+
+All three Research topics and all three Projects topics now contain at least
+one corresponding figure. TableGPT, CodeBERT, length-controlled generation and
+culture-aware translation images were rendered from complete original paper
+figures and visually inspected; captions link to the original articles. Existing
+PPT method figures remain where relevant.
+
+Fixed Markdown parsing of figure captions and section closing tags. Generated
+HTML now has three sibling research sections (figure counts 1/2/2) and three
+sibling project sections (1/1/1), with no escaped structural tags. The standard
+site checker now guards these conditions. The About section contains exactly
+three 2026 non-publication updates and five selected papers. It no longer repeats
+paper summaries or publication awards as news. Jekyll build and both production
+and offline-preview link checks pass. No new browser layout verification is claimed.

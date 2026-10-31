@@ -7,20 +7,26 @@ description: Representations, knowledge, and reliability — three connected dir
 
 Text generation begins with understanding the information a model receives. My research explores how to represent inputs that differ in language, structure, and length, including multilingual text, tables, and long documents. A central question is how to align these inputs with the representations used by generative models while preserving the information needed for faithful output. This line of work aligns cross-lingual lexical representations, structured triples, and long-document discourse. It includes table-to-text generation, structure-aware modeling, and learning from limited examples. TableGPT studies how table structure reconstruction and content matching can support few-shot generation, connecting structured records with natural language descriptions.
 
+{% include research_figure.liquid file="/assets/img/research/tablegpt-training.png" width="1362" height="720" alt="TableGPT training framework with table transformation, structure reconstruction, and content matching" title="TableGPT: learning from structured inputs" caption="The original training framework connects structured tables with text through three complementary learning objectives." source_url="https://aclanthology.org/2020.coling-main.179/" source_label="TableGPT · Figure 1" %}
+
 <h3>Related publications</h3>
 <p class="related"><a href="{{ '/publications/' | relative_url }}#gong-etal-2020-tablegpt">TableGPT: Few-shot Table-to-Text Generation with Table Structure Reconstruction and Content Matching →</a></p>
 <p class="related"><a href="{{ '/publications/' | relative_url }}#feng-etal-2020-codebert">CodeBERT: A Pre-Trained Model for Programming and Natural Languages →</a></p>
+
 </section>
 <section markdown="1" class="topic" id="knowledge"><p class="label">Research direction 02</p><h2>Knowledge-Enhanced Language Models</h2>
 
 Language models must connect their learned representations with knowledge expressed in different forms. My work investigates how knowledge and complementary data sources can be incorporated during training and inference to support language understanding and generation. CodeBERT learns shared representations of programming and natural languages, with applications in code search and documentation generation. D-HGN incorporates commonsense knowledge and speaker information into dialogue summarization through heterogeneous graph networks. Related work also examines how retrieved information can be filtered before it reaches a generator. Across these settings, the goal is to make relevant information available in a form that supports the task, while limiting interference from irrelevant or noisy evidence.
 
 
+{% include research_figure.liquid file="/assets/img/research/codebert-pretraining.png" width="1335" height="576" alt="CodeBERT replaced-token detection with natural-language and code generators and a shared discriminator" title="CodeBERT: joint language and code modeling" caption="The original pretraining diagram shows how language and code generators provide training signals to an NL–code discriminator." source_url="https://aclanthology.org/2020.findings-emnlp.139/" source_label="CodeBERT · Figure 2" %}
+
 {% include research_figure.liquid file="/assets/img/research/rag-noise-filtering.png" width="1522" height="438" alt="Information bottleneck-based noise filtering for retrieval-augmented generation" title="Filtering retrieved evidence" caption="An information bottleneck perspective on retaining task-relevant evidence before generation." %}
 <h3>Related publications</h3>
 <p class="related"><a href="{{ '/publications/' | relative_url }}#feng-etal-2020-codebert">CodeBERT: A Pre-Trained Model for Programming and Natural Languages →</a></p>
 <p class="related"><a href="{{ '/publications/' | relative_url }}#feng-etal-2021-commonsense">Incorporating Commonsense Knowledge into Abstractive Dialogue Summarization via Heterogeneous Graph Networks →</a></p>
 <p class="related"><a href="{{ '/publications/' | relative_url }}#zhu-etal-2024-information">An Information Bottleneck Perspective for Effective Noise Filtering on Retrieval-Augmented Generation →</a></p>
+
 </section>
 <section markdown="1" class="topic" id="trustworthy"><p class="label">Research direction 03</p><h2>Trustworthy Text Generation</h2>
 
@@ -35,4 +41,5 @@ Fluent text is not necessarily reliable text. My research examines why language 
 <p class="related"><a href="{{ '/publications/' | relative_url }}#huang2023hallucination">A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions →</a></p>
 <p class="related"><a href="{{ '/publications/' | relative_url }}#huang-etal-2025-improving">Improving Contextual Faithfulness of Large Language Models via Retrieval Heads-Induced Optimization →</a></p>
 <p class="related"><a href="{{ '/publications/' | relative_url }}#qin-etal-2026-implicitmembench">ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models →</a></p>
+
 </section>

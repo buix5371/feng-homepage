@@ -53,3 +53,29 @@ Research Group destination updated to https://hit-scir-tg.netlify.app/ at the ow
 Content audit expanded verified bibliography to 68 records, including two NeurIPS papers and the CCL 2021 commonsense paper. Full sources, name corrections, omissions and editorial boundaries are recorded in CONTENT_AUDIT.md.
 
 On owner review, the two slide-13 component illustrations were removed from the website and assets. Exact-byte comparisons confirmed they came from the PPT; provenance alone did not justify enlarging them as standalone results. Four substantive slide-16 figures remain.
+
+## Per-topic paper figures and 2026 updates
+
+Additional figures are rendered directly from official ACL Anthology PDFs at
+216 dpi, preserving the entire figure. Only page whitespace and surrounding
+paragraphs/captions are excluded; no scientific content or labels are redrawn.
+
+| Asset | Authoritative source | Figure / PDF page | Website topic |
+| --- | --- | --- | --- |
+| tablegpt-training.png | https://aclanthology.org/2020.coling-main.179.pdf | Figure 1 / page 3 | Representation learning |
+| codebert-pretraining.png | https://aclanthology.org/2020.findings-emnlp.139.pdf | Figure 2 / page 4 | Knowledge-enhanced modeling |
+| length-controlled-generation.png | https://aclanthology.org/2025.acl-long.825.pdf | Figure 1 / page 3 | Writing and controllable generation |
+| culture-aware-translation.png | https://aclanthology.org/2026.acl-long.1367.pdf | Figure 1 / page 3 | Multilingual translation |
+
+Captions link to the original paper. Project figures are explicitly research
+methods/benchmarks, not purported screenshots of industry products. English
+site copy is preserved; the CanMT figure retains original bilingual research
+examples. The four extracted figures were visually inspected for completeness.
+
+About updates now contain only non-publication events from the current year:
+EMNLP 2026 reviewing recognition (conference site), the August 2026 CIPS youth
+committee appointment (supplied PPT, slide 21), and the July 2026 CAAI election
+(https://nmlr.muc.edu.cn/info/1106/3382.htm, election on 27 July). Current-year
+filtering uses Jekyll's site.time; the section is omitted if there are no matching
+updates. Publication awards remain with the bibliography rather than repeated
+as news. An event whose month is unknown keeps a year-only date.

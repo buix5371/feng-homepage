@@ -1,13 +1,14 @@
-- date: '2026'
-  text: ImplicitMemBench received the Best Resource Paper Award at ACL 2026.
-  url: https://aclanthology.org/2026.acl-long.1301/
-- date: '2026'
+- year: '2026'
+  date: '2026'
   text: Recognized as an Outstanding Reviewer at EMNLP 2026.
   url: https://2026.emnlp.org/program/awards_reviewers/
-- date: '2025'
-  text: Our contextual faithfulness paper was selected as an ACL 2025 SAC Highlight.
-  url: https://aclanthology.org/2025.acl-long.826/
-- date: '2024'
-  text: Our work applies the information bottleneck perspective to noise filtering
-    in retrieval-augmented generation.
-  url: https://aclanthology.org/2024.acl-long.59/
+- year: '2026'
+  date: Aug 2026
+  text: Began serving as Chair of the Youth Working Committee of the Chinese Information
+    Processing Society of China.
+  url: /service/#professional-societies
+- year: '2026'
+  date: Jul 2026
+  text: Elected Deputy Chair of the CAAI Technical Committee on Multilingual Intelligent
+    Information Processing.
+  url: https://nmlr.muc.edu.cn/info/1106/3382.htm
