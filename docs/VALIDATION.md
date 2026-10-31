@@ -152,3 +152,20 @@ on `main` automatically is not enabled; GitHub auto-deploys changes pushed to
 `gh-pages`. README describes the current workflow and the optional future Actions
 workflow. Earlier statements about a private repository/deferred public deployment
 are historical and superseded by the owner's explicit publication approval.
+
+
+## Organization root-domain migration — 2026-10-31
+
+At the owner's explicit request, repository transfer and rename completed:
+`xcfeng-hit/xcfeng-hit.github.io`. Existing source and published branch histories
+are retained. Main configuration uses URL `https://xcfeng-hit.github.io` and an
+empty baseurl. Native Jekyll build, production and offline checks passed.
+Published commit `cdf5fbd` succeeded in GitHub Pages run `41178952617`.
+
+Unauthenticated checks on https://xcfeng-hit.github.io/ returned 200 for all six
+pages, CSS, portrait and demo poster; the video returned 206 for a byte-range
+request. Every page's canonical URL uses the new root domain, without old
+account/repository prefixes. Projects still contains 11 funded-project list
+items and the original demo. Local Git remotes and the repository homepage field
+were updated to the new organization location. Browser layout/playback QA is
+not newly claimed. Earlier personal-account deployment notes are historical.

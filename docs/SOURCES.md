@@ -180,3 +180,14 @@ publication. The live site is https://buix5371.github.io/feng-homepage/.
 Source is on `main`; generated public files are on `gh-pages`. Earlier private-only
 restrictions recorded above are superseded by this approval. The original PPT
 and local source-download/runtime folders remain excluded.
+
+
+## Organization homepage migration — 2026-10-31
+
+The owner created the `xcfeng-hit` organization and explicitly requested migration.
+The existing repository, including its main/source history and gh-pages output
+history, was transferred and renamed to `xcfeng-hit/xcfeng-hit.github.io`.
+The canonical destination is https://xcfeng-hit.github.io/; `_config.yml` uses
+this URL and an empty baseurl. Existing factual content and media are retained.
+The old account/repository URLs above are historical. Published files remain on
+`gh-pages`, root directory. The original PPT remains outside the repository.
