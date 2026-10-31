@@ -171,3 +171,12 @@ application examples are condensed in this public introduction; they are not
 presented as a complete application inventory. All 11 funding records and the
 original slide-19 multilingual system demo remain. Earlier figure notes above
 are historical and do not describe the current page.
+
+
+## Publication status — 2026-10-31
+
+The owner explicitly approved public repository visibility and GitHub Pages
+publication. The live site is https://buix5371.github.io/feng-homepage/.
+Source is on `main`; generated public files are on `gh-pages`. Earlier private-only
+restrictions recorded above are superseded by this approval. The original PPT
+and local source-download/runtime folders remain excluded.

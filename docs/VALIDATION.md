@@ -131,3 +131,24 @@ Generation now has one paragraph and no image/figure; its layout is single-colum
 without an unused image slot. The overview SVG is absent from current source and
 both generated outputs. All 11 funding records and the original multilingual
 system video remain. No new browser layout verification is claimed.
+
+
+## Public GitHub Pages deployment — 2026-10-31
+
+The owner explicitly authorized changing `buix5371/feng-homepage` to public and
+publishing the website. GitHub returned success for the visibility change and
+Pages creation. Publishing source is branch `gh-pages`, root directory, containing
+verified production files from source commit `a4ac42e` and `.nojekyll`.
+Initial published commit: `270a21a`; GitHub deployment run `41178128604` succeeded.
+Live URL: https://buix5371.github.io/feng-homepage/
+
+Unauthenticated HTTP checks returned 200 for About, Research, Publications,
+Projects, Service and CV; CSS, portrait and demo poster also returned 200. The
+video accepted a byte-range request with 206. Published Projects contains all
+11 project list items and the original-source demo video. The original PPT and
+source-download/runtime folders are absent from the publish branch. Browser
+responsive-layout/playback QA is still not claimed. Rebuilding source changes
+on `main` automatically is not enabled; GitHub auto-deploys changes pushed to
+`gh-pages`. README describes the current workflow and the optional future Actions
+workflow. Earlier statements about a private repository/deferred public deployment
+are historical and superseded by the owner's explicit publication approval.
