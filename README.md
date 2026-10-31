@@ -51,8 +51,7 @@ Open `preview/index.html` directly; navigation and assets use relative paths.
   首页 News 最多显示 5 条近期任职、活动等动态，按时间新到旧维护，不按年份清空；论文介绍与奖项留在论文区，避免重复。文字与日期使用英文。
 - 研究：正文在 `_pages/research.md`，首页摘要在 `_data/research.yml`。
 - 项目、服务和履历：修改 `_pages/` 对应文件。
-- 项目清单：在 `_data/projects.yml` 维护标题、资助方、起止时间与本人角色；`group` 为 ongoing、earlier 或 industry。页面先罗列全部项目，再介绍作文生成与多语言翻译应用；作文暂用简短文字，多语言保留原 PPT 系统演示。应用介绍在 `_pages/projects.md`，新图须记录来源。
-- 系统演示：多语言应用使用原 PPT 第 19 页 GIF 转成的视频 `assets/img/projects/multilingual-system-demo.mp4`，封面为同目录 `multilingual-system-poster.jpg`。替换演示时同步修改尺寸、封面、英文说明和来源记录；不将其他平台的界面当作本组成果。
+- 项目清单：在 `_data/projects.yml` 维护标题、资助方、起止时间与本人角色；`group` 为 ongoing、earlier 或 industry。页面先罗列全部项目，再用简短文字介绍高考作文生成应用。应用介绍在 `_pages/projects.md`。多语言应用介绍及演示已按老师要求删除。
 - 照片：替换 `assets/img/portrait.jpg`；保持原文件名与人物比例。
 - PPT 原图：位于 `assets/img/research/`；图片来源见 `docs/SOURCES.md`，首页方向图位于 `_includes/research_cards.liquid`，由 `_data/research.yml` 配置。
 - 当前发布方式：修改 `main` 的源码后，构建检查，再将生成网页同步到 `gh-pages` 并推送；GitHub 会自动发布该分支。只更新 `main` 暂不会自动更新网站。

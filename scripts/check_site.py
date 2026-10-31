@@ -61,8 +61,6 @@ if len(re.findall(r'class="paper"',pubs))<65:errors.append('Publication list is 
 if len(re.findall(r'class="paper"',home))!=5:errors.append('Homepage must contain five selected papers')
 projects=(root/'projects/index.html').read_text(encoding='utf8')
 if len(re.findall(r'class="funded-project"',projects))!=11:errors.append('Project portfolio must include all eleven supplied projects')
-if 'multilingual-system-demo.mp4' not in projects:errors.append('Original presentation system demo is missing')
-if 'multilingual-system-poster.jpg' not in projects:errors.append('System demo poster is missing')
 if errors:
     print('\n'.join(errors));sys.exit(1)
 print(f'PASS: six English pages, local assets, links, anchors, and rendered templates ({len(list(root.rglob("*.html")))} HTML files).')

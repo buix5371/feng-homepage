@@ -94,3 +94,14 @@ application examples are condensed in this public introduction; they are not
 presented as a complete application inventory. All 11 funding records and the
 original slide-19 multilingual system demo remain. Earlier figure notes above
 are historical and do not describe the current page.
+
+
+## Advisor-requested removal of multilingual application block
+
+The owner relayed the advisor's request to delete the shown multilingual machine
+translation and information generation application block. The entire block,
+including its title, collaboration narrative, group link, video and caption,
+is removed from Projects. The demo MP4 and poster are removed from current source
+and published assets. The 11 funded-project records and the concise Gaokao essay
+application remain. Earlier notes about including the multilingual demo describe
+historical revisions, not the current website. Git history is not rewritten.

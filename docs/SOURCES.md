@@ -191,3 +191,14 @@ The canonical destination is https://xcfeng-hit.github.io/; `_config.yml` uses
 this URL and an empty baseurl. Existing factual content and media are retained.
 The old account/repository URLs above are historical. Published files remain on
 `gh-pages`, root directory. The original PPT remains outside the repository.
+
+
+## Advisor-requested removal of multilingual application block
+
+The owner relayed the advisor's request to delete the shown multilingual machine
+translation and information generation application block. The entire block,
+including its title, collaboration narrative, group link, video and caption,
+is removed from Projects. The demo MP4 and poster are removed from current source
+and published assets. The 11 funded-project records and the concise Gaokao essay
+application remain. Earlier notes about including the multilingual demo describe
+historical revisions, not the current website. Git history is not rewritten.

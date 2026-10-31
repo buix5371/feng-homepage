@@ -1,7 +1,7 @@
 ---
 title: Projects
 permalink: /projects/
-description: Funded research, industry collaborations, and selected applications in writing and multilingual communication.
+description: Funded research, industry collaborations, and applications in text generation.
 ---
 <div class="project-portfolio" markdown="0">
   {% assign ongoing = site.data.projects | where: 'group', 'ongoing' %}
@@ -27,28 +27,13 @@ description: Funded research, industry collaborations, and selected applications
   </section>
 
   <section class="application-showcase" aria-labelledby="applications-heading">
-    <h2 id="applications-heading">Selected Applications</h2>
+    <h2 id="applications-heading">Selected Application</h2>
     <article class="application-entry application-text-only">
       <div class="application-copy">
         <h3>Gaokao Essay Generation</h3>
         <p>Our group developed an end-to-end system that generates argumentative essays for China's national college entrance examination (Gaokao). The work was supported by successive national research programs and underwent third-party evaluation in 2022. Related technologies support document drafting, proofreading, and meeting summarization.</p>
         <a class="project-action" href="https://hit-scir-tg.netlify.app/#research-projects">Research group overview ↗</a>
       </div>
-    </article>
-    <article class="application-entry">
-      <div class="application-copy">
-        <h3>Multilingual Machine Translation and Information Generation</h3>
-        <p>Collaboration with Peng Cheng Laboratory contributes to the multilingual Naohai model and translation platforms. Work with Qiyuan Laboratory supports the Jiuge model and multilingual information generation.</p>
-        <p>Translation models have also been deployed on platforms associated with China International Communications Group and the Ministry of Education's national language-resource services.</p>
-        <a class="project-action" href="https://hit-scir-tg.netlify.app/#research-projects">Research group overview ↗</a>
-      </div>
-      <figure class="application-figure">
-        <video controls playsinline preload="none" width="1280" height="696" poster="{{ '/assets/img/projects/multilingual-system-poster.jpg' | relative_url }}" aria-label="Multilingual information generation system demo" aria-describedby="multilingual-demo-caption">
-          <source src="{{ '/assets/img/projects/multilingual-system-demo.mp4' | relative_url }}" type="video/mp4">
-          <a href="{{ '/assets/img/projects/multilingual-system-demo.mp4' | relative_url }}">Watch the system demo (MP4)</a>
-        </video>
-        <figcaption id="multilingual-demo-caption">Multilingual information generation with Jiuge: a system demonstration from the presentation, showing retrieval across languages and generated reports. <a href="{{ '/assets/img/projects/multilingual-system-demo.mp4' | relative_url }}" target="_blank" rel="noopener">Watch full-size ↗</a></figcaption>
-      </figure>
     </article>
   </section>
 </div>
