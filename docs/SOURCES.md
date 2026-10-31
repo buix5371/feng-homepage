@@ -36,8 +36,8 @@ Original embedded PNG files are reused without raster editing. Source mapping:
 
 | Website asset | PPT location | Use |
 | --- | --- | --- |
-| structured-representations.png | Slide 13, image32.png | Structured input illustration |
-| projection-decoder.png | Slide 13, image37.png | Representation-to-decoder schematic |
+| structured-representations.png (removed) | Slide 13, image32.png | Retired: a small schematic component, unsuitable as a standalone research figure |
+| projection-decoder.png (removed) | Slide 13, image37.png | Retired: a small projector/decoder component, unsuitable as a standalone research figure |
 | retrieval-generation.png | Slide 16, image51.png | Retrieval / generation overview |
 | rag-noise-filtering.png | Slide 16, image52.png | Information bottleneck noise filtering |
 | fine-mem.png | Slide 16, image53.png | Fine-Mem framework |
@@ -51,3 +51,5 @@ used as research illustrations. Fine-Mem and ImplicitMemBench are distinguished.
 Research Group destination updated to https://hit-scir-tg.netlify.app/ at the owner's request on 2026-10-31. The older HIT page remains a historical factual source.
 
 Content audit expanded verified bibliography to 68 records, including two NeurIPS papers and the CCL 2021 commonsense paper. Full sources, name corrections, omissions and editorial boundaries are recorded in CONTENT_AUDIT.md.
+
+On owner review, the two slide-13 component illustrations were removed from the website and assets. Exact-byte comparisons confirmed they came from the PPT; provenance alone did not justify enlarging them as standalone results. Four substantive slide-16 figures remain.

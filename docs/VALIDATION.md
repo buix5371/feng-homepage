@@ -42,3 +42,10 @@ recognition labels. The CCL author sequence and TOIS publication year were check
 in generated HTML. See CONTENT_AUDIT.md for scope and remaining bibliography limits.
 Nine newly added resource URLs returned 200; publisher automated access returned
 403, so the survey retains an accessible arXiv landing page and PDF.
+
+## Figure selection correction
+
+Removed the two slide-13 schematic components after owner feedback. Four
+substantive slide-16 figures remain. The removed PNGs are no longer present in
+the website source or offline preview. Earlier figure counts describe the
+previous revision, not the current selection.
