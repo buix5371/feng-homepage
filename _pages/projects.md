@@ -1,52 +1,52 @@
 ---
 title: Projects
 permalink: /projects/
-description: Research applications in writing assistance, knowledge-enhanced dialogue, and multilingual communication.
+description: Funded research and collaborations that connect text generation with writing tools and multilingual communication.
 ---
-<section markdown="1" class="project"><p class="label">01 / Writing and generation</p><h2>Writing Assistance and Controllable Generation</h2>
+<div class="project-portfolio" markdown="0">
+  <section class="application-showcase" aria-labelledby="applications-heading">
+    <div class="portfolio-heading"><h2 id="applications-heading">Research in Practice</h2><span>Systems &amp; collaboration</span></div>
+    <article class="platform-feature">
+      <div class="platform-visual">
+        <a href="{{ '/assets/img/projects/multilingual-toolchain.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size multilingual platform interfaces">
+          <img src="{{ '/assets/img/projects/multilingual-toolchain.webp' | relative_url }}" width="1327" height="753" alt="Four interfaces from Peng Cheng Laboratory's multilingual toolchain, including translation editing, video translation, and digital presenters" loading="lazy">
+        </a>
+        <p class="image-credit">Platform interfaces · Peng Cheng Laboratory <a href="https://data-starcloud.pcl.ac.cn/data-app/multilingual">Source ↗</a></p>
+      </div>
+      <div class="platform-copy">
+        <p class="label">Multilingual communication</p>
+        <h3>From Translation Models to Multilingual Platforms</h3>
+        <p>In collaboration with Peng Cheng Laboratory, our work contributes to multilingual modeling and translation platforms, including the multilingual Naohai model. The laboratory's public platform brings translation and other language tools into practical workflows.</p>
+        <dl class="project-facts"><div><dt>Project</dt><dd>Multilingual Communication Platform</dd></div><div><dt>Period / role</dt><dd>2022–2025 · Project Lead</dd></div></dl>
+        <a class="project-action" href="https://data-starcloud.pcl.ac.cn/data-app/multilingual">Explore the collaborative platform ↗</a>
+      </div>
+    </article>
+    <article class="writing-case">
+      <div><p class="label">Writing systems</p><h3>Gaokao Essay Generation</h3></div>
+      <div><p>Our group developed an end-to-end system for generating argumentative essays for China's national college entrance examination. Supported across successive national research programs, the system underwent third-party evaluation in 2022.</p><p class="application-detail">Writing collaborations include iFLYTEK's meeting summaries and document drafting, Huawei's length-controlled summaries and text compression, and Tencent's sports reporting and fiction descriptions. Related drafting and proofreading technologies have been applied in workflows for the National People's Congress and the Chinese People's Political Consultative Conference.</p><a class="project-action" href="https://hit-scir-tg.netlify.app/#research-projects">Research group overview ↗</a></div>
+    </article>
+    <p class="collaboration-note">Further multilingual collaborations include the Jiuge model and multilingual information generation with Qiyuan Laboratory. Translation models have also been deployed on platforms associated with China International Communications Group and the Ministry of Education's national language-resource services.</p>
+  </section>
 
-Writing systems must organize information and adapt their output to a task. My work examines generation from structured inputs, summarization, and controllable text generation. Applications include automated essay writing, document drafting and proofreading, meeting summaries, and length-controlled summarization. TableGPT provides a research example of generating descriptions from tables with limited training examples.
-
-{% include research_figure.liquid file="/assets/img/research/length-controlled-generation.png" width="1365" height="681" alt="Metropolis-Hastings sampling process that combines model likelihood with a target length constraint" title="Length-controlled writing" caption="The original method figure illustrates iterative sampling for generating text with a specified length, supporting length-controlled summarization and instruction following." source_url="https://aclanthology.org/2025.acl-long.825/" source_label="Length Controlled Generation · Figure 1" %}
-
-### Systems and collaboration
-
-- **Gaokao essay generation:** An end-to-end system for generating argumentative essays for China's national college entrance examination. The work was supported across successive national research programs and underwent third-party evaluation.
-- **iFLYTEK:** Research on official-document writing assistants and meeting summarization, including applications connected to iFLYTEK Tingjian.
-- **Huawei:** Length-controlled summarization and text compression.
-- **Tencent:** Table-based sports report generation and descriptive writing for fiction.
-
-Related writing and proofreading technologies have been applied in workflows for the National People's Congress and the Chinese People's Political Consultative Conference.
-
-[Length-control method](https://aclanthology.org/2025.acl-long.825/) · [Table-to-text generation](https://aclanthology.org/2020.coling-main.179/)
-
-</section>
-
-<section markdown="1" class="project"><p class="label">02 / Grounded interaction</p><h2>Knowledge-Enhanced Dialogue</h2>
-
-Useful dialogue systems need to draw on relevant knowledge while remaining consistent with the evidence they receive. This research direction connects knowledge-enhanced dialogue generation with retrieval-augmented modeling, noise filtering, and contextual faithfulness. Collaborations include a Huawei project on knowledge-enhanced dialogue generation (2023–2024) and a Microsoft project on text generation with knowledge and reasoning (2019–2020). Related publications examine how retrieved evidence can be filtered and how model behavior can be aligned with context.
-
-{% include research_figure.liquid file="/assets/img/research/retrieval-generation.png" width="1126" height="762" alt="Question-answering example and three ways to combine retrieval and generation" title="Retrieval and generation" caption="Retrieved documents provide evidence for responses; retrieval-generation synergy connects evidence gathering and generation." %}
-
-[Retrieval noise filtering](https://aclanthology.org/2024.acl-long.59/) · [Contextual faithfulness](https://aclanthology.org/2025.acl-long.826/)
-
-</section>
-
-<section markdown="1" class="project"><p class="label">03 / Multilingual communication</p><h2>Multilingual Machine Translation</h2>
-
-My research also addresses multilingual machine translation and continual learning, with the aim of supporting communication across languages. Projects include research on continual learning for multilingual neural machine translation and collaboration on multilingual translation platforms. These efforts connect representation learning with practical translation systems.
-
-Our culture-aware translation research also develops CanMT, a benchmark built from literary parallel texts to evaluate culture-specific meaning across languages.
-
-{% include research_figure.liquid file="/assets/img/research/culture-aware-translation.png" width="1356" height="492" alt="CanMT construction pipeline with parallel-text alignment, culture-specific lexicon construction, and human verification" title="Culture-aware multilingual translation" caption="The original CanMT pipeline shows how multilingual literary data is aligned, filtered, and verified for culture-aware translation evaluation." source_url="https://aclanthology.org/2026.acl-long.1367/" source_label="Culture-Aware Machine Translation · Figure 1" %}
-
-### Platforms and research programs
-
-- **Peng Cheng Laboratory:** Collaboration on the multilingual Naohai model and a multilingual translation platform.
-- **Qiyuan Laboratory:** Collaboration on the Jiuge model and multilingual information generation.
-- **Translation services:** Translation models deployed on platforms associated with China International Communications Group and the Ministry of Education's national language-resource services.
-- **Research support:** NSFC-funded continual learning for multilingual neural machine translation (2023–2027), Slavic-language translation research (2023–2025), and Russian-language retrieval and generation under the Heilongjiang Chunyan Program (2025–2027).
-
-[Visit the research group](https://hit-scir-tg.netlify.app/) · [Browse related publications](https://aclanthology.org/people/xiaocheng-feng/)
-
-</section>
+  {% assign ongoing = site.data.projects | where: 'group', 'ongoing' %}
+  {% assign earlier = site.data.projects | where: 'group', 'earlier' %}
+  {% assign industry = site.data.projects | where: 'group', 'industry' %}
+  <section class="funding-section" aria-labelledby="ongoing-heading">
+    <div class="portfolio-heading"><h2 id="ongoing-heading">Ongoing Research Projects</h2><span>National &amp; regional funding</span></div>
+    <div class="funding-grid ongoing-grid">
+      {% for project in ongoing %}{% include funded_project.liquid project=project %}{% endfor %}
+    </div>
+  </section>
+  <section class="funding-section" aria-labelledby="earlier-heading">
+    <div class="portfolio-heading"><h2 id="earlier-heading">Earlier Research Projects</h2><span>Public &amp; laboratory funding</span></div>
+    <div class="funding-grid">
+      {% for project in earlier %}{% include funded_project.liquid project=project %}{% endfor %}
+    </div>
+  </section>
+  <section class="funding-section" aria-labelledby="industry-heading">
+    <div class="portfolio-heading"><h2 id="industry-heading">Industry Collaborations</h2><span>Collaborative research projects</span></div>
+    <div class="funding-grid industry-grid">
+      {% for project in industry %}{% include funded_project.liquid project=project %}{% endfor %}
+    </div>
+  </section>
+</div>

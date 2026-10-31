@@ -76,3 +76,19 @@ are all 2026 non-publication events. Generated homepage headings were checked
 exactly: Research Interests, Selected Publications, News, Contact. Three overview
 images, five selected papers, and three news entries are present. Detail-page
 figures remain in place. Production build and local link checks pass.
+
+
+## Real-project portfolio and public platform image — 2026-10-31
+
+Native Jekyll production build and both production / offline-preview checks pass.
+The rendered Projects page contains all 11 slide-5 funding records: titles,
+sponsors, dates and personal roles match `_data/projects.yml`. Groups contain
+3 ongoing, 4 earlier public/laboratory and 4 industry projects. There are four
+sibling page sections and no nested topic/escaped-tag errors. Projects contains
+an official PCL whole-image platform screenshot (1327 × 753, WebP 88,686 bytes)
+with source credit, two application narratives, and no paper-method figures or
+paper-link substitutes. The text-only grant cards are intentionally allowed by
+the owner's latest preference; Research topics retain the figure requirement.
+Both external destinations were fetched successfully; the group link uses the
+verified `research-projects` anchor. No browser responsive-layout verification
+is claimed; previous local browser preview remained unavailable.

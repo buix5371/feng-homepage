@@ -45,6 +45,7 @@ For a production check: `bundle exec jekyll build`, then
   首页 News 最多显示 5 条近期任职、活动等动态，按时间新到旧维护，不按年份清空；论文介绍与奖项留在论文区，避免重复。文字与日期使用英文。
 - 研究：正文在 `_pages/research.md`，首页摘要在 `_data/research.yml`。
 - 项目、服务和履历：修改 `_pages/` 对应文件。
+- 项目清单：在 `_data/projects.yml` 维护标题、资助方、起止时间与本人角色；`group` 为 ongoing、earlier 或 industry。应用介绍在 `_pages/projects.md`；新图须记录来源，缺少合适图片时使用现有紧凑卡片，不用无关论文图替代。
 - 照片：替换 `assets/img/portrait.jpg`；保持原文件名与人物比例。
 - PPT 原图：位于 `assets/img/research/`；图片来源见 `docs/SOURCES.md`，首页方向图位于 `_includes/research_cards.liquid`，由 `_data/research.yml` 配置。
 - 启用工作流后，提交到 `main` 会自动构建检查；发布需手动运行工作流并勾选

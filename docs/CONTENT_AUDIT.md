@@ -46,3 +46,16 @@
 结论：原站存在重要遗漏，已补齐可由现有材料支持的关键内容；动态统计、完整论文清单及含糊的影响力排名有明确边界，不能宣称对所有原始材料逐字完整复现。
 
 出版商页面的自动访问返回 403，但 Crossref 正式元数据已取得；综述的 Paper/PDF 按钮保留可访问的 arXiv 页面与全文，期刊年份和 DOI 仍使用核实后的正式出版信息。新增的其余 9 个论文/奖项/代码链接返回 HTTP 200，记录见 audit-link-check.json。
+
+
+## Projects page presentation update — 2026-10-31
+
+The former three thematic sections were not an adequate list of actual funded
+projects. They have been replaced with all 11 slide-5 projects (7 public/laboratory,
+4 industry), each with dates and personal role. Applications are presented
+separately above the funding cards. A whole image of the collaborative multilingual
+platform comes from Peng Cheng Laboratory's official public page, with a visible
+credit. No stand-alone paper-method figures remain on Projects. The Gaokao system,
+writing collaborations, NPC/CPPCC workflows, Qiyuan/Jiuge model and translation
+service platforms from slides 18–19 remain covered. No grant-to-product mapping
+has been inferred beyond the general multilingual platform collaboration.

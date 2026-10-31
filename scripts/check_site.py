@@ -12,8 +12,10 @@ class Page(HTMLParser):
         if tag=='html':self.lang=a.get('lang')
         if tag=='nav':self.nav+=1
         if tag=='section':
-            topic=bool(set(a.get('class','').split()) & {'topic','project'})
-            if topic and any(s['topic'] for s in self.sections):self.section_errors.append('Nested research/project topics')
+            # Research topics require explanatory figures. Funded projects may
+            # have no suitable public image; never require filler illustrations.
+            topic='topic' in a.get('class','').split()
+            if topic and any(s['topic'] for s in self.sections):self.section_errors.append('Nested research topics')
             self.sections.append({'topic':topic,'image':False})
         if tag=='img' and self.sections:self.sections[-1]['image']=True
         if 'id' in a:self.ids.append(a['id'])
@@ -23,7 +25,7 @@ class Page(HTMLParser):
     def handle_endtag(self,tag):
         if tag=='section' and self.sections:
             section=self.sections.pop()
-            if section['topic'] and not section['image']:self.section_errors.append('Research/project topic without an image')
+            if section['topic'] and not section['image']:self.section_errors.append('Research topic without an image')
 
 errors=[];parsed={}
 home=(root/'index.html').read_text(encoding='utf8')
@@ -56,6 +58,9 @@ for name in ['Xiaocheng Feng','Zhangyin Feng','Ming Zhou','Lingpeng Kong']:
     if name not in pubs:errors.append(f'Author metadata did not render: {name}')
 if len(re.findall(r'class="paper"',pubs))<65:errors.append('Publication list is incomplete')
 if len(re.findall(r'class="paper"',home))!=5:errors.append('Homepage must contain five selected papers')
+projects=(root/'projects/index.html').read_text(encoding='utf8')
+if len(re.findall(r'class="funded-project"',projects))!=11:errors.append('Project portfolio must include all eleven supplied projects')
+if 'multilingual-toolchain.webp' not in projects:errors.append('Collaborative platform image is missing')
 if errors:
     print('\n'.join(errors));sys.exit(1)
 print(f'PASS: six English pages, local assets, links, anchors, and rendered templates ({len(list(root.rglob("*.html")))} HTML files).')

@@ -81,3 +81,33 @@ updates. Publication awards remain with the bibliography rather than repeated
 as news. An event whose month is unknown keeps a year-only date.
 
 Homepage organization revised following the faculty comparison in HOMEPAGE_REFERENCES.md. Research and Research in focus are consolidated into one illustrated Research Interests section. The News heading is stable, dates belong to entries, and calendar-year filtering has been removed. Current news content remains three 2026 non-publication events.
+
+
+## Project portfolio revision — 2026-10-31
+
+Projects now lists all eleven funded projects from the supplied PPT, slide 5,
+in `_data/projects.yml`: three ongoing public projects, four earlier public /
+laboratory projects, and four industry collaborations. Dates determine this
+presentation as of October 2026; review the grouping when projects end. Personal
+roles retain the distinction between PI, Project Lead, and Subproject Lead.
+The application narratives use PPT slides 18–19. They do not imply that every
+application belongs to one particular funding award or that the advisor owns the
+whole partner platform. Existing Qiyuan/Jiuge and service-platform information
+is retained. The three former thematic project sections and their adjacent paper
+method figures have been removed from this page; Research still explains methods.
+
+| Asset | Public primary source | Treatment / scope |
+| --- | --- | --- |
+| assets/img/projects/multilingual-toolchain.webp | https://data-starcloud.pcl.ac.cn/image/data-app/multilingual/04.png | Whole original image, converted to WebP; no cropping, redrawing, or label changes. Partner platform interfaces, not exclusive personal deliverables. |
+
+The contextual platform page is https://data-starcloud.pcl.ac.cn/data-app/multilingual,
+accessed 2026-10-31. The visible credit links to that page. Original Chinese UI
+text remains in the screenshot; surrounding copy, alt text and controls are English.
+The group overview https://hit-scir-tg.netlify.app/ corroborates the essay system
+and translation collaboration. Its essay screenshot inside the introduction
+poster is only a small thumbnail; inspected and omitted rather than enlarged.
+The public CCL 2018 talk https://www.cips-cl.org/static/CCL2018/downloads/ppt/04.pdf
+was inspected but contains no suitable application screenshot. Original PPT,
+full downloaded pages, and public talk PDF are not included in the repository.
+No images from unrelated essay systems, stock imagery, or illustrative paper
+methods are used as project product screenshots.

@@ -1,0 +1,6 @@
+<article class="funded-project" id="{{ include.project.id }}">
+  <div class="funding-meta"><span class="funding-sponsor">{{ include.project.sponsor | escape }}</span><span class="funding-period">{{ include.project.period | escape }}</span></div>
+  <h3>{{ include.project.title | escape }}</h3>
+  {% if include.project.program %}<p class="funding-program">{{ include.project.program | escape }}</p>{% endif %}
+  <p class="funding-role">{{ include.project.role | escape }}</p>
+</article>

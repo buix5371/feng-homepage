@@ -1,0 +1,74 @@
+# All eleven entries are from the supplied award presentation, slide 5.
+# Keep periods and personal roles explicit; do not infer product ownership.
+- id: complex-text-generation
+  group: ongoing
+  title: Key Technologies for Complex Text Generation
+  sponsor: NSFC
+  program: Young Scientists Fund (Category B)
+  period: 2026–2028
+  role: Principal Investigator
+- id: continual-multilingual-translation
+  group: ongoing
+  title: Continual Learning for Multilingual Neural Machine Translation
+  sponsor: NSFC
+  program: General Program
+  period: 2023–2027
+  role: Principal Investigator
+- id: russian-retrieval-generation
+  group: ongoing
+  title: "NLP Innovation Team: Russian-language Retrieval and Generation"
+  sponsor: Heilongjiang
+  program: Chunyan Program
+  period: 2025–2027
+  role: Principal Investigator
+- id: slavic-language-translation
+  group: earlier
+  title: Machine Translation for Slavic Languages, with a Focus on Chinese and Russian
+  sponsor: Heilongjiang
+  program: Key R&D Program
+  period: 2023–2025
+  role: Principal Investigator
+- id: multilingual-communication-platform
+  group: earlier
+  title: Multilingual Communication Platform
+  sponsor: Peng Cheng Laboratory
+  program: Incubation project for an international big-science initiative
+  period: 2022–2025
+  role: Project Lead
+- id: logical-creative-generation
+  group: earlier
+  title: Text Generation with Logical Coherence and Artistic Creativity
+  sponsor: National Key R&D Program of China
+  period: 2020–2023
+  role: Subproject Lead
+- id: structured-data-generation
+  group: earlier
+  title: Text Generation Based on Representation Learning of Structured Data
+  sponsor: NSFC
+  program: Young Scientists Fund
+  period: 2019–2022
+  role: Principal Investigator
+- id: huawei-dialogue
+  group: industry
+  title: Knowledge-Enhanced Dialogue Generation with Large Language Models
+  sponsor: Huawei
+  period: 2023–2024
+  role: Principal Investigator
+- id: iflytek-document-writing
+  group: industry
+  title: Key Technologies for an Official-Document Writing Assistant
+  sponsor: iFLYTEK
+  period: 2019–2020
+  role: Principal Investigator
+- id: microsoft-knowledge-reasoning
+  group: industry
+  title: Text Generation with Knowledge and Reasoning
+  sponsor: Microsoft
+  period: 2019–2020
+  role: Principal Investigator
+- id: tencent-character-descriptions
+  group: industry
+  title: Generating Character Descriptions for Fiction through Representation Learning
+  sponsor: Tencent
+  period: 2018–2019
+  role: Principal Investigator
