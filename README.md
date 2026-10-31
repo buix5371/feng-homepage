@@ -5,8 +5,8 @@ Six-page English Jekyll site, adapted from al-folio v0.14.6. See
 
 ## GitHub Pages hosting
 
-- Public website: https://buix5371.github.io/feng-homepage/
-- Source repository: https://github.com/buix5371/feng-homepage (`main`).
+- Public website: https://xcfeng-hit.github.io/
+- Source repository: https://github.com/xcfeng-hit/xcfeng-hit.github.io (`main`).
 - Published files: `gh-pages`, root directory, with `.nojekyll`.
 - The owner authorized public visibility and publication on 2026-10-31.
   The original PPT and local source-download/runtime folders are not uploaded.
@@ -23,7 +23,8 @@ for a future GitHub Actions build; activating it needs workflow write permission
 and a corresponding switch of the Pages publishing source to GitHub Actions.
 
 If the repository is renamed, update `url`/`baseurl` in `_config.yml`, rebuild,
-and republish. The current configuration targets `/feng-homepage/`.
+and republish. The current organization site uses an empty `baseurl` and is
+published at the domain root, without a repository-name suffix.
 
 ## Local production build
 
