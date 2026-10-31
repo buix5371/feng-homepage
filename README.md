@@ -8,6 +8,7 @@ Six-page English Jekyll site, adapted from al-folio v0.14.6. See
 - Public website: https://xcfeng-hit.github.io/
 - Source repository: https://github.com/xcfeng-hit/xcfeng-hit.github.io (`main`).
 - Published files: `gh-pages`, root directory, with `.nojekyll`.
+- The owner requested migration to the `xcfeng-hit` organization on 2026-10-31.
 - The owner authorized public visibility and publication on 2026-10-31.
   The original PPT and local source-download/runtime folders are not uploaded.
 
