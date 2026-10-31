@@ -22,3 +22,13 @@ Source uploaded to buix5371/feng-homepage on 2026-10-31. GitHub API confirmed
 45 files on main and private=true. No active workflow is installed; the deployment
 template is stored at docs/deployment/pages.yml. Pages configuration, Actions
 execution, and public deployment are deferred at the owner's request.
+
+## Presentation figure update
+
+Six original embedded PNGs reused from slides 13 and 16. The rebuilt homepage
+contains three original research figures, Research contains five, and Projects
+contains one (some figures appear on more than one page). All image files decode
+correctly; figure captions, alt text, dimensions, and full-size links are present.
+The real Jekyll build and internal-link checks pass after this change. Browser
+layout inspection was attempted but localhost access timed out; no desktop or
+mobile visual pass is claimed.

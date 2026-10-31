@@ -46,6 +46,7 @@ For a production check: `bundle exec jekyll build`, then
 - 研究：正文在 `_pages/research.md`，首页摘要在 `_data/research.yml`。
 - 项目、服务和履历：修改 `_pages/` 对应文件。
 - 照片：替换 `assets/img/portrait.jpg`；保持原文件名与人物比例。
+- PPT 原图：位于 `assets/img/research/`；图片来源见 `docs/SOURCES.md`，首页展示在 `_includes/research_highlights.liquid`。
 - 启用工作流后，提交到 `main` 会自动构建检查；发布需手动运行工作流并勾选
   publish。发布前检查姓名、年份、链接和手机显示。
 

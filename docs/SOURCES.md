@@ -30,3 +30,21 @@ author order; Xiaocheng Feng and Xiachong Feng remain distinct people.
 
 Institutional/photo and third-party paper rights are not covered by the template's
 MIT license. Preserve academic attribution when reusing these materials.
+
+## Reused presentation figures
+
+Original embedded PNG files are reused without raster editing. Source mapping:
+
+| Website asset | PPT location | Use |
+| --- | --- | --- |
+| structured-representations.png | Slide 13, image32.png | Structured input illustration |
+| projection-decoder.png | Slide 13, image37.png | Representation-to-decoder schematic |
+| retrieval-generation.png | Slide 16, image51.png | Retrieval / generation overview |
+| rag-noise-filtering.png | Slide 16, image52.png | Information bottleneck noise filtering |
+| fine-mem.png | Slide 16, image53.png | Fine-Mem framework |
+| implicit-memory.png | Slide 16, image54.png | ImplicitMemBench workflow |
+
+Figures retain their original English labels and proportions. Captions are written
+for the website; click-through links open full-resolution originals. Chinese
+certificates, private application documents, and endorsement portraits are not
+used as research illustrations. Fine-Mem and ImplicitMemBench are distinguished.

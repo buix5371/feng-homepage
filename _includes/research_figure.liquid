@@ -1,0 +1,4 @@
+<figure class="research-figure{% if include.compact %} compact{% endif %}">
+  <a class="figure-image-link" href="{{ include.file | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size figure: {{ include.alt | escape }}"><img src="{{ include.file | relative_url }}" alt="{{ include.alt | escape }}" width="{{ include.width }}" height="{{ include.height }}" loading="lazy"></a>
+  <figcaption>{% if include.title %}<strong>{{ include.title }}</strong>{% endif %}{{ include.caption }} <a class="full-size" href="{{ include.file | relative_url }}" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
+</figure>

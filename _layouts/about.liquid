@@ -15,6 +15,7 @@ layout: default
     <figure class="portrait"><img src="{{ '/assets/img/portrait.jpg' | relative_url }}" width="240" height="320" alt="Portrait of Xiaocheng Feng"><figcaption>Harbin, China</figcaption></figure>
   </div>
   <section class="section"><div class="section-heading"><h2>Research</h2><a href="{{ '/research/' | relative_url }}">Explore research →</a></div>{% include research_cards.liquid %}</section>
+  <section class="section"><div class="section-heading"><h2>Research in focus</h2><a href="{{ '/research/' | relative_url }}#trustworthy">Methods &amp; benchmarks →</a></div>{% include research_highlights.liquid %}</section>
   <section class="section"><div class="section-heading"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All publications →</a></div>{% include selected_papers.liquid %}</section>
   <section class="section"><h2>Recent updates</h2><ul class="news">{% for item in site.data.news limit:5 %}<li><span class="news-date">{{ item.date }}</span><span>{{ item.text }} <a href="{{ item.url }}">Read more ↗</a></span></li>{% endfor %}</ul></section>
   <section class="section contact"><p class="eyebrow">Get in touch</p><h2>Contact</h2><p>For research inquiries and academic exchange, please contact me by email.</p><a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a><p class="muted">Harbin Institute of Technology · Harbin, China</p><a href="https://homepage.hit.edu.cn/fengxiaocheng">University profile ↗</a></section>

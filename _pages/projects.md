@@ -14,6 +14,8 @@ Writing systems must organize information and adapt their output to a task. My w
 
 Useful dialogue systems need to draw on relevant knowledge while remaining consistent with the evidence they receive. This research direction connects knowledge-enhanced dialogue generation with retrieval-augmented modeling, noise filtering, and contextual faithfulness. Industry collaborations described in the supplied research materials include a Huawei project on knowledge-enhanced dialogue generation. Related publications examine how retrieved evidence can be filtered and how model behavior can be aligned with context.
 
+{% include research_figure.liquid file="/assets/img/research/retrieval-generation.png" width="1126" height="762" alt="Question-answering example and three ways to combine retrieval and generation" title="Retrieval and generation" caption="Retrieved documents provide evidence for responses; retrieval-generation synergy connects evidence gathering and generation." %}
+
 [Retrieval noise filtering](https://aclanthology.org/2024.acl-long.59/) · [Contextual faithfulness](https://aclanthology.org/2025.acl-long.826/)
 </section>
 
