@@ -157,3 +157,17 @@ autoplay; video downloads on demand (`preload="none"`). The original 55 MB GIF
 and full PPT remain outside the repository. The low-resolution group poster
 remains excluded; the writing figure is still an explicitly authored English
 application overview from slide 18, not a claimed system screenshot.
+
+
+## Gaokao application: concise text pending an original screenshot
+
+The owner chose a short introduction after the additional image search found no
+verified high-resolution public system screenshot. The authored English writing
+overview SVG is removed from the page and current assets. Gaokao Essay Generation
+now uses one paragraph covering the system, national research support, 2022
+third-party evaluation, and related writing applications (PPT slide 18). The
+single-column text layout leaves no empty image area. Detailed slide-18 industry
+application examples are condensed in this public introduction; they are not
+presented as a complete application inventory. All 11 funding records and the
+original slide-19 multilingual system demo remain. Earlier figure notes above
+are historical and do not describe the current page.

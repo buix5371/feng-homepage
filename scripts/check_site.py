@@ -63,7 +63,6 @@ projects=(root/'projects/index.html').read_text(encoding='utf8')
 if len(re.findall(r'class="funded-project"',projects))!=11:errors.append('Project portfolio must include all eleven supplied projects')
 if 'multilingual-system-demo.mp4' not in projects:errors.append('Original presentation system demo is missing')
 if 'multilingual-system-poster.jpg' not in projects:errors.append('System demo poster is missing')
-if 'writing-applications.svg' not in projects:errors.append('Writing application overview is missing')
 if errors:
     print('\n'.join(errors));sys.exit(1)
 print(f'PASS: six English pages, local assets, links, anchors, and rendered templates ({len(list(root.rglob("*.html")))} HTML files).')

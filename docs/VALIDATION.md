@@ -122,3 +122,12 @@ frames and middle video frame were visually inspected. Jiuge multilingual
 information generation is distinguished from Naohai translation collaboration.
 Browser playback and responsive interaction have not been verified because the
 local browser preview remains unavailable.
+
+
+## Concise Gaokao text introduction
+
+Native production build and production/offline-preview checks pass. Gaokao Essay
+Generation now has one paragraph and no image/figure; its layout is single-column
+without an unused image slot. The overview SVG is absent from current source and
+both generated outputs. All 11 funding records and the original multilingual
+system video remain. No new browser layout verification is claimed.

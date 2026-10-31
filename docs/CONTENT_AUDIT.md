@@ -80,3 +80,17 @@ controlled video with a static poster. Its caption identifies multilingual
 information generation with Jiuge, without claiming that the animation depicts
 Naohai machine translation. The 11 listed funded projects and writing application
 remain unchanged. Full extraction and transcoding provenance is in SOURCES.md.
+
+
+## Gaokao application: concise text pending an original screenshot
+
+The owner chose a short introduction after the additional image search found no
+verified high-resolution public system screenshot. The authored English writing
+overview SVG is removed from the page and current assets. Gaokao Essay Generation
+now uses one paragraph covering the system, national research support, 2022
+third-party evaluation, and related writing applications (PPT slide 18). The
+single-column text layout leaves no empty image area. Detailed slide-18 industry
+application examples are condensed in this public introduction; they are not
+presented as a complete application inventory. All 11 funding records and the
+original slide-19 multilingual system demo remain. Earlier figure notes above
+are historical and do not describe the current page.
