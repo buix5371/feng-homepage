@@ -65,3 +65,14 @@ site checker now guards these conditions. The About section contains exactly
 three 2026 non-publication updates and five selected papers. It no longer repeats
 paper summaries or publication awards as news. Jekyll build and both production
 and offline-preview link checks pass. No new browser layout verification is claimed.
+
+## Faculty-reference homepage simplification
+
+Compared Wei Xu, Graham Neubig and Antonis Anastasopoulos personal homepages.
+Consolidated research overview and visual highlights into a single illustrated
+Research Interests section; removed the redundant include. News has a stable
+heading with dates on rows and no calendar-year clearing. Current three entries
+are all 2026 non-publication events. Generated homepage headings were checked
+exactly: Research Interests, Selected Publications, News, Contact. Three overview
+images, five selected papers, and three news entries are present. Detail-page
+figures remain in place. Production build and local link checks pass.

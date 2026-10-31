@@ -15,6 +15,10 @@
   refs:
   - gong-etal-2020-tablegpt
   - feng-etal-2020-codebert
+  image: /assets/img/research/tablegpt-training.png
+  image_width: 1362
+  image_height: 720
+  image_alt: TableGPT training framework for learning from structured tables
 - id: knowledge
   number: '02'
   title: Knowledge-Enhanced Language Models
@@ -32,6 +36,10 @@
   refs:
   - feng-etal-2020-codebert
   - zhu-etal-2024-information
+  image: /assets/img/research/codebert-pretraining.png
+  image_width: 1335
+  image_height: 576
+  image_alt: CodeBERT pretraining framework for natural language and code
 - id: trustworthy
   number: '03'
   title: Trustworthy Text Generation
@@ -50,3 +58,7 @@
   - huang2023hallucination
   - huang-etal-2025-improving
   - qin-etal-2026-implicitmembench
+  image: /assets/img/research/implicit-memory.png
+  image_width: 1498
+  image_height: 664
+  image_alt: ImplicitMemBench dataset generation and evaluation workflow

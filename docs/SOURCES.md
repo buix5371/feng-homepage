@@ -79,3 +79,5 @@ committee appointment (supplied PPT, slide 21), and the July 2026 CAAI election
 filtering uses Jekyll's site.time; the section is omitted if there are no matching
 updates. Publication awards remain with the bibliography rather than repeated
 as news. An event whose month is unknown keeps a year-only date.
+
+Homepage organization revised following the faculty comparison in HOMEPAGE_REFERENCES.md. Research and Research in focus are consolidated into one illustrated Research Interests section. The News heading is stable, dates belong to entries, and calendar-year filtering has been removed. Current news content remains three 2026 non-publication events.

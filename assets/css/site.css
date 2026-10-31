@@ -6,3 +6,5 @@
 .paper-award{font-size:12px;color:var(--blue);font-weight:650;margin:7px 0 10px}.paper-award a{display:inline-block;border-left:3px solid #b9cfe9;padding-left:9px}
 
 .figure-source{display:inline-block;font-size:12px;margin-left:5px}.research-figure figcaption .figure-source+.full-size{margin-left:12px}@media(max-width:680px){.figure-source{display:block;margin:8px 0 0}.research-figure figcaption .figure-source+.full-size{margin:6px 0 0}}
+
+.research-card-image{display:block;width:100%;height:145px;object-fit:contain;background:#fff;margin:0 0 20px}.research-card h3{margin-top:0}@media(max-width:850px){.research-card-image{height:120px}}@media(max-width:680px){.research-card{display:block}.research-card-image{height:auto;max-height:210px;margin-bottom:18px}.research-card h3{margin-bottom:10px}.research-card p{font-size:14px}}
