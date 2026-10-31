@@ -38,4 +38,4 @@ description: Academic appointments, education, selected honors, and research fun
 
 ## Academic Profiles
 
-[University profile](https://homepage.hit.edu.cn/fengxiaocheng) · [ACL Anthology](https://aclanthology.org/people/xiaocheng-feng/) · [Research group](https://ir.hit.edu.cn/19606/list.htm)
+[University profile](https://homepage.hit.edu.cn/fengxiaocheng) · [ACL Anthology](https://aclanthology.org/people/xiaocheng-feng/) · [Research group](https://hit-scir-tg.netlify.app/)

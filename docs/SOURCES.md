@@ -48,3 +48,5 @@ Figures retain their original English labels and proportions. Captions are writt
 for the website; click-through links open full-resolution originals. Chinese
 certificates, private application documents, and endorsement portraits are not
 used as research illustrations. Fine-Mem and ImplicitMemBench are distinguished.
+
+Research Group destination updated to https://hit-scir-tg.netlify.app/ at the owner's request on 2026-10-31. The older HIT page remains a historical factual source.

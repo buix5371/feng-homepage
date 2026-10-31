@@ -23,5 +23,5 @@ Useful dialogue systems need to draw on relevant knowledge while remaining consi
 
 My research also addresses multilingual machine translation and continual learning, with the aim of supporting communication across languages. Projects include research on continual learning for multilingual neural machine translation and collaboration on multilingual translation platforms. These efforts connect representation learning with practical translation systems. Work with Peng Cheng Laboratory is described in the supplied project materials; the research group website provides further context on collaborations.
 
-[Visit the research group](https://ir.hit.edu.cn/19606/list.htm) · [Browse related publications](https://aclanthology.org/people/xiaocheng-feng/)
+[Visit the research group](https://hit-scir-tg.netlify.app/) · [Browse related publications](https://aclanthology.org/people/xiaocheng-feng/)
 </section>
