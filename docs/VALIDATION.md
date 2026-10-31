@@ -18,6 +18,7 @@ browser control was stopped because it could not reliably determine the current
 browser URL. Responsive CSS, viewport metadata, menu semantics and Escape-key
 handling are implemented, but are not a substitute for browser verification.
 
-Not performed: remote repository creation, Pages configuration, Actions execution,
-and public deployment. The GitHub connector lacks repository creation; browser
-fallback was blocked. No live URL is claimed.
+Source uploaded to buix5371/feng-homepage on 2026-10-31. GitHub API confirmed
+45 files on main and private=true. No active workflow is installed; the deployment
+template is stored at docs/deployment/pages.yml. Pages configuration, Actions
+execution, and public deployment are deferred at the owner's request.

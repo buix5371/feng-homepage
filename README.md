@@ -55,7 +55,7 @@ The Ruby 3.3.6 / Jekyll 4.3.4 production build passed locally, including six
 pages, full author rendering, five selected publications, and internal links.
 65 publication records are included. 133 article, institution, and PDF links returned HTTP 200.
 Browser-based visual/interaction checks were unavailable because browser control
-was stopped by its URL safety check. The source is intended for the owner's private
+was stopped by its URL safety check. The source has been uploaded to the owner's private
 repository. Automated workflow activation and public deployment are deferred.
 The deployment workflow is supplied as an inactive template because the current
 Git credential cannot write active workflow files.
