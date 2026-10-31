@@ -5,18 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research · Xiaocheng Feng</title>
 <meta name="description" content="Representations, knowledge, and reliability — three connected directions in text generation.">
-<link rel="canonical" href="https://buix5371.github.io/feng-homepage/research/">
+<link rel="canonical" href="https://xcfeng-hit.github.io/research/">
 <meta property="og:title" content="Research">
 <meta property="og:description" content="Representations, knowledge, and reliability — three connected directions in text generation.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://buix5371.github.io/feng-homepage/research/">
-<meta property="og:image" content="https://buix5371.github.io/feng-homepage/assets/img/portrait.jpg">
-<link rel="icon" type="image/svg+xml" href="/feng-homepage/assets/img/favicon.svg">
-<link rel="stylesheet" href="/feng-homepage/assets/css/site.css">
+<meta property="og:url" content="https://xcfeng-hit.github.io/research/">
+<meta property="og:image" content="https://xcfeng-hit.github.io/assets/img/portrait.jpg">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+<link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header"><div class="nav-container"><a class="brand" href="/feng-homepage/">Xiaocheng <strong>Feng</strong><span class="brand-dot">.</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Toggle navigation">Menu <span aria-hidden="true">☰</span></button><nav id="navigation" aria-label="Main navigation"><a href="/feng-homepage/">About</a><a href="/feng-homepage/research/" aria-current="page">Research</a><a href="/feng-homepage/publications/">Publications</a><a href="/feng-homepage/projects/">Projects</a><a href="/feng-homepage/service/">Service</a><a href="/feng-homepage/cv/">CV</a></nav></div></header>
+  <header class="site-header"><div class="nav-container"><a class="brand" href="/">Xiaocheng <strong>Feng</strong><span class="brand-dot">.</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Toggle navigation">Menu <span aria-hidden="true">☰</span></button><nav id="navigation" aria-label="Main navigation"><a href="/">About</a><a href="/research/" aria-current="page">Research</a><a href="/publications/">Publications</a><a href="/projects/">Projects</a><a href="/service/">Service</a><a href="/cv/">CV</a></nav></div></header>
 
   <main id="main" class="container" tabindex="-1"><article class="post"><header class="page-header"><p class="eyebrow">Xiaocheng Feng / Research</p><h1>Research</h1><p class="page-intro">Representations, knowledge, and reliability — three connected directions in text generation.</p></header><div class="page-content"><section class="topic" id="representation">
   <p class="label">Research direction 01</p>
@@ -25,13 +25,13 @@
   <p>Text generation begins with understanding the information a model receives. My research explores how to represent inputs that differ in language, structure, and length, including multilingual text, tables, and long documents. A central question is how to align these inputs with the representations used by generative models while preserving the information needed for faithful output. This line of work aligns cross-lingual lexical representations, structured triples, and long-document discourse. It includes table-to-text generation, structure-aware modeling, and learning from limited examples. TableGPT studies how table structure reconstruction and content matching can support few-shot generation, connecting structured records with natural language descriptions.</p>
 
   <figure class="research-figure">
-  <a class="figure-image-link" href="/feng-homepage/assets/img/research/tablegpt-training.png" target="_blank" rel="noopener" aria-label="View full-size figure: TableGPT training framework with table transformation, structure reconstruction, and content matching"><img src="/feng-homepage/assets/img/research/tablegpt-training.png" alt="TableGPT training framework with table transformation, structure reconstruction, and content matching" width="1362" height="720" loading="lazy" /></a>
-  <figcaption><strong>TableGPT: learning from structured inputs</strong>The original training framework connects structured tables with text through three complementary learning objectives. <a class="figure-source" href="https://aclanthology.org/2020.coling-main.179/">TableGPT · Figure 1 ↗</a> <a class="full-size" href="/feng-homepage/assets/img/research/tablegpt-training.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
+  <a class="figure-image-link" href="/assets/img/research/tablegpt-training.png" target="_blank" rel="noopener" aria-label="View full-size figure: TableGPT training framework with table transformation, structure reconstruction, and content matching"><img src="/assets/img/research/tablegpt-training.png" alt="TableGPT training framework with table transformation, structure reconstruction, and content matching" width="1362" height="720" loading="lazy" /></a>
+  <figcaption><strong>TableGPT: learning from structured inputs</strong>The original training framework connects structured tables with text through three complementary learning objectives. <a class="figure-source" href="https://aclanthology.org/2020.coling-main.179/">TableGPT · Figure 1 ↗</a> <a class="full-size" href="/assets/img/research/tablegpt-training.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
 </figure>
 
   <h3>Related publications</h3>
-  <p class="related"><a href="/feng-homepage/publications/#gong-etal-2020-tablegpt">TableGPT: Few-shot Table-to-Text Generation with Table Structure Reconstruction and Content Matching →</a></p>
-  <p class="related"><a href="/feng-homepage/publications/#feng-etal-2020-codebert">CodeBERT: A Pre-Trained Model for Programming and Natural Languages →</a></p>
+  <p class="related"><a href="/publications/#gong-etal-2020-tablegpt">TableGPT: Few-shot Table-to-Text Generation with Table Structure Reconstruction and Content Matching →</a></p>
+  <p class="related"><a href="/publications/#feng-etal-2020-codebert">CodeBERT: A Pre-Trained Model for Programming and Natural Languages →</a></p>
 
 </section>
 <section class="topic" id="knowledge">
@@ -41,19 +41,19 @@
   <p>Language models must connect their learned representations with knowledge expressed in different forms. My work investigates how knowledge and complementary data sources can be incorporated during training and inference to support language understanding and generation. CodeBERT learns shared representations of programming and natural languages, with applications in code search and documentation generation. D-HGN incorporates commonsense knowledge and speaker information into dialogue summarization through heterogeneous graph networks. Related work also examines how retrieved information can be filtered before it reaches a generator. Across these settings, the goal is to make relevant information available in a form that supports the task, while limiting interference from irrelevant or noisy evidence.</p>
 
   <figure class="research-figure">
-  <a class="figure-image-link" href="/feng-homepage/assets/img/research/codebert-pretraining.png" target="_blank" rel="noopener" aria-label="View full-size figure: CodeBERT replaced-token detection with natural-language and code generators and a shared discriminator"><img src="/feng-homepage/assets/img/research/codebert-pretraining.png" alt="CodeBERT replaced-token detection with natural-language and code generators and a shared discriminator" width="1335" height="576" loading="lazy" /></a>
-  <figcaption><strong>CodeBERT: joint language and code modeling</strong>The original pretraining diagram shows how language and code generators provide training signals to an NL–code discriminator. <a class="figure-source" href="https://aclanthology.org/2020.findings-emnlp.139/">CodeBERT · Figure 2 ↗</a> <a class="full-size" href="/feng-homepage/assets/img/research/codebert-pretraining.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
+  <a class="figure-image-link" href="/assets/img/research/codebert-pretraining.png" target="_blank" rel="noopener" aria-label="View full-size figure: CodeBERT replaced-token detection with natural-language and code generators and a shared discriminator"><img src="/assets/img/research/codebert-pretraining.png" alt="CodeBERT replaced-token detection with natural-language and code generators and a shared discriminator" width="1335" height="576" loading="lazy" /></a>
+  <figcaption><strong>CodeBERT: joint language and code modeling</strong>The original pretraining diagram shows how language and code generators provide training signals to an NL–code discriminator. <a class="figure-source" href="https://aclanthology.org/2020.findings-emnlp.139/">CodeBERT · Figure 2 ↗</a> <a class="full-size" href="/assets/img/research/codebert-pretraining.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
 </figure>
 
   <figure class="research-figure">
-  <a class="figure-image-link" href="/feng-homepage/assets/img/research/rag-noise-filtering.png" target="_blank" rel="noopener" aria-label="View full-size figure: Information bottleneck-based noise filtering for retrieval-augmented generation"><img src="/feng-homepage/assets/img/research/rag-noise-filtering.png" alt="Information bottleneck-based noise filtering for retrieval-augmented generation" width="1522" height="438" loading="lazy" /></a>
-  <figcaption><strong>Filtering retrieved evidence</strong>An information bottleneck perspective on retaining task-relevant evidence before generation. <a class="full-size" href="/feng-homepage/assets/img/research/rag-noise-filtering.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
+  <a class="figure-image-link" href="/assets/img/research/rag-noise-filtering.png" target="_blank" rel="noopener" aria-label="View full-size figure: Information bottleneck-based noise filtering for retrieval-augmented generation"><img src="/assets/img/research/rag-noise-filtering.png" alt="Information bottleneck-based noise filtering for retrieval-augmented generation" width="1522" height="438" loading="lazy" /></a>
+  <figcaption><strong>Filtering retrieved evidence</strong>An information bottleneck perspective on retaining task-relevant evidence before generation. <a class="full-size" href="/assets/img/research/rag-noise-filtering.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
 </figure>
 
   <h3>Related publications</h3>
-  <p class="related"><a href="/feng-homepage/publications/#feng-etal-2020-codebert">CodeBERT: A Pre-Trained Model for Programming and Natural Languages →</a></p>
-  <p class="related"><a href="/feng-homepage/publications/#feng-etal-2021-commonsense">Incorporating Commonsense Knowledge into Abstractive Dialogue Summarization via Heterogeneous Graph Networks →</a></p>
-  <p class="related"><a href="/feng-homepage/publications/#zhu-etal-2024-information">An Information Bottleneck Perspective for Effective Noise Filtering on Retrieval-Augmented Generation →</a></p>
+  <p class="related"><a href="/publications/#feng-etal-2020-codebert">CodeBERT: A Pre-Trained Model for Programming and Natural Languages →</a></p>
+  <p class="related"><a href="/publications/#feng-etal-2021-commonsense">Incorporating Commonsense Knowledge into Abstractive Dialogue Summarization via Heterogeneous Graph Networks →</a></p>
+  <p class="related"><a href="/publications/#zhu-etal-2024-information">An Information Bottleneck Perspective for Effective Noise Filtering on Retrieval-Augmented Generation →</a></p>
 
 </section>
 <section class="topic" id="trustworthy">
@@ -63,27 +63,27 @@
   <p>Fluent text is not necessarily reliable text. My research examines why language models hallucinate and how generated responses can remain faithful to evidence and consistent with context. This includes a survey of hallucination in large language models, retrieval-augmented generation, and memory mechanisms for sustained interaction. DeePEn fuses token-level distributions from heterogeneous models, complementing research on retrieval noise filtering and iterative evidence use. Recent work studies retrieval heads as a means of improving contextual faithfulness and develops benchmarks for implicit memory, extending evaluation beyond explicit recall. The broader aim is to understand the limits of current models and develop methods and evaluations that support reliable information use across generation and interaction.</p>
 
   <figure class="research-figure">
-  <a class="figure-image-link" href="/feng-homepage/assets/img/research/fine-mem.png" target="_blank" rel="noopener" aria-label="View full-size figure: Fine-Mem training with chunk-level rewards and evidence-anchored feedback"><img src="/feng-homepage/assets/img/research/fine-mem.png" alt="Fine-Mem training with chunk-level rewards and evidence-anchored feedback" width="1568" height="594" loading="lazy" /></a>
-  <figcaption><strong>Fine-Mem</strong>Fine-grained rewards connect local memory operations with long-horizon task outcomes. <a class="full-size" href="/feng-homepage/assets/img/research/fine-mem.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
+  <a class="figure-image-link" href="/assets/img/research/fine-mem.png" target="_blank" rel="noopener" aria-label="View full-size figure: Fine-Mem training with chunk-level rewards and evidence-anchored feedback"><img src="/assets/img/research/fine-mem.png" alt="Fine-Mem training with chunk-level rewards and evidence-anchored feedback" width="1568" height="594" loading="lazy" /></a>
+  <figcaption><strong>Fine-Mem</strong>Fine-grained rewards connect local memory operations with long-horizon task outcomes. <a class="full-size" href="/assets/img/research/fine-mem.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
 </figure>
 
   <figure class="research-figure">
-  <a class="figure-image-link" href="/feng-homepage/assets/img/research/implicit-memory.png" target="_blank" rel="noopener" aria-label="View full-size figure: ImplicitMemBench dataset creation and evaluation of implicit memory"><img src="/feng-homepage/assets/img/research/implicit-memory.png" alt="ImplicitMemBench dataset creation and evaluation of implicit memory" width="1498" height="664" loading="lazy" /></a>
-  <figcaption><strong>ImplicitMemBench</strong>Dataset generation and evaluation across procedural memory, priming, and classical conditioning. <a class="full-size" href="/feng-homepage/assets/img/research/implicit-memory.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
+  <a class="figure-image-link" href="/assets/img/research/implicit-memory.png" target="_blank" rel="noopener" aria-label="View full-size figure: ImplicitMemBench dataset creation and evaluation of implicit memory"><img src="/assets/img/research/implicit-memory.png" alt="ImplicitMemBench dataset creation and evaluation of implicit memory" width="1498" height="664" loading="lazy" /></a>
+  <figcaption><strong>ImplicitMemBench</strong>Dataset generation and evaluation across procedural memory, priming, and classical conditioning. <a class="full-size" href="/assets/img/research/implicit-memory.png" target="_blank" rel="noopener">View full-size ↗</a></figcaption>
 </figure>
 
   <h3>Related publications</h3>
-  <p class="related"><a href="/feng-homepage/publications/#huang-etal-2024-deepen">Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration →</a></p>
-  <p class="related"><a href="/feng-homepage/publications/#ma-etal-2026-fine">Fine-Mem: Fine-Grained Feedback Alignment for Long-Horizon Memory Management →</a></p>
-  <p class="related"><a href="/feng-homepage/publications/#huang2023hallucination">A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions →</a></p>
-  <p class="related"><a href="/feng-homepage/publications/#huang-etal-2025-improving">Improving Contextual Faithfulness of Large Language Models via Retrieval Heads-Induced Optimization →</a></p>
-  <p class="related"><a href="/feng-homepage/publications/#qin-etal-2026-implicitmembench">ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models →</a></p>
+  <p class="related"><a href="/publications/#huang-etal-2024-deepen">Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration →</a></p>
+  <p class="related"><a href="/publications/#ma-etal-2026-fine">Fine-Mem: Fine-Grained Feedback Alignment for Long-Horizon Memory Management →</a></p>
+  <p class="related"><a href="/publications/#huang2023hallucination">A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions →</a></p>
+  <p class="related"><a href="/publications/#huang-etal-2025-improving">Improving Contextual Faithfulness of Large Language Models via Retrieval Heads-Induced Optimization →</a></p>
+  <p class="related"><a href="/publications/#qin-etal-2026-implicitmembench">ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models →</a></p>
 
 </section>
 </div></article>
 </main>
   <footer class="site-footer"><div><span>© 2026 Xiaocheng Feng</span><span>Harbin Institute of Technology</span></div><p>Built with <a href="https://jekyllrb.com/">Jekyll</a> and an adapted <a href="https://github.com/alshedivat/al-folio/tree/v0.14.6">al-folio</a> template.</p></footer>
 
-  <script src="/feng-homepage/assets/js/site.js" defer></script>
+  <script src="/assets/js/site.js" defer></script>
 </body>
 </html>
