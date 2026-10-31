@@ -19,9 +19,10 @@ class Page(HTMLParser):
             self.sections.append({'topic':topic,'image':False})
         if tag=='img' and self.sections:self.sections[-1]['image']=True
         if 'id' in a:self.ids.append(a['id'])
-        if tag in ('a','img','script','link'):
+        if tag in ('a','img','script','link','video','source'):
             u=a.get('href') or a.get('src')
             if u:self.links.append(u)
+            if a.get('poster'):self.links.append(a['poster'])
     def handle_endtag(self,tag):
         if tag=='section' and self.sections:
             section=self.sections.pop()
@@ -60,7 +61,8 @@ if len(re.findall(r'class="paper"',pubs))<65:errors.append('Publication list is 
 if len(re.findall(r'class="paper"',home))!=5:errors.append('Homepage must contain five selected papers')
 projects=(root/'projects/index.html').read_text(encoding='utf8')
 if len(re.findall(r'class="funded-project"',projects))!=11:errors.append('Project portfolio must include all eleven supplied projects')
-if 'multilingual-toolchain.webp' not in projects:errors.append('Collaborative platform image is missing')
+if 'multilingual-system-demo.mp4' not in projects:errors.append('Original presentation system demo is missing')
+if 'multilingual-system-poster.jpg' not in projects:errors.append('System demo poster is missing')
 if 'writing-applications.svg' not in projects:errors.append('Writing application overview is missing')
 if errors:
     print('\n'.join(errors));sys.exit(1)

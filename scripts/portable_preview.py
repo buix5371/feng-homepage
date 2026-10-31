@@ -20,6 +20,6 @@ for p in SOURCE.rglob('*.html'):
         if clean.endswith('/'):target=target/'index.html'
         relative=os.path.relpath(target,dest.parent).replace('\\','/')
         return attr+'="'+relative+(sep+fragment if sep else '')+'"'
-    text=re.sub(r'(href|src)="(/[^\"]*)"',replace,p.read_text(encoding='utf8'))
+    text=re.sub(r'(href|src|poster)="(/[^\"]*)"',replace,p.read_text(encoding='utf8'))
     dest.write_text(text,encoding='utf8')
 print('Offline preview created from real Jekyll output:',OUT)

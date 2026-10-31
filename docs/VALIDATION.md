@@ -105,3 +105,20 @@ visually inspected: text and rows fit, with no clipping. Its source is PPT slide
 18; it is a summary graphic rather than an original system screenshot. The PCL
 image and source link remain. Browser responsive-layout verification remains
 unavailable; no new browser QA is claimed.
+
+
+## Use original PPT demo; remove partner-platform screenshot
+
+Production build and six-page checks pass for both production and portable
+preview, now checking video sources and poster paths as well as ordinary assets.
+There are 11 funding list entries, two applications, one original-source system
+video and one English writing overview. Native video controls and playsinline
+are enabled; there is no autoplay and preload is none. Portable source and poster
+paths resolve to existing files. The Star Cloud screenshot, link and generated
+asset are absent. The slide-19 GIF extraction matches the embedded PPT bytes by
+SHA-256. Encoded H.264 is 1280 × 696 at 20 fps / 23.75 seconds / 4,954,231 bytes;
+a full FFmpeg decode check passed. The first-frame poster, sampled original GIF
+frames and middle video frame were visually inspected. Jiuge multilingual
+information generation is distinguished from Naohai translation collaboration.
+Browser playback and responsive interaction have not been verified because the
+local browser preview remains unavailable.

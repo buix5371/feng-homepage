@@ -69,3 +69,14 @@ have illustrations: an explicitly summarized English application diagram based
 on slide 18, and the already sourced official PCL platform screenshot. All prior
 application facts are retained in the two short narratives. No extra monetary
 statistics, private certificate, or whole Chinese slide screenshot is published.
+
+
+## Original slide-19 animation instead of the partner platform image
+
+The owner's concern about using Star Cloud's platform image as the group's
+application has been addressed by removing that image and link from Projects.
+The page now uses the original embedded slide-19 animation, compressed to a
+controlled video with a static poster. Its caption identifies multilingual
+information generation with Jiuge, without claiming that the animation depicts
+Naohai machine translation. The 11 listed funded projects and writing application
+remain unchanged. Full extraction and transcoding provenance is in SOURCES.md.

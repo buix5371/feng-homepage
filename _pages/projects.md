@@ -42,14 +42,17 @@ description: Funded research, industry collaborations, and selected applications
     </article>
     <article class="application-entry">
       <div class="application-copy">
-        <h3>Multilingual Machine Translation</h3>
+        <h3>Multilingual Machine Translation and Information Generation</h3>
         <p>Collaboration with Peng Cheng Laboratory contributes to the multilingual Naohai model and translation platforms. Work with Qiyuan Laboratory supports the Jiuge model and multilingual information generation.</p>
         <p>Translation models have also been deployed on platforms associated with China International Communications Group and the Ministry of Education's national language-resource services.</p>
-        <a class="project-action" href="https://data-starcloud.pcl.ac.cn/data-app/multilingual">Collaborative platform ↗</a>
+        <a class="project-action" href="https://hit-scir-tg.netlify.app/#research-projects">Research group overview ↗</a>
       </div>
       <figure class="application-figure">
-        <a href="{{ '/assets/img/projects/multilingual-toolchain.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size multilingual platform interfaces"><img src="{{ '/assets/img/projects/multilingual-toolchain.webp' | relative_url }}" width="1327" height="753" alt="Four interfaces from Peng Cheng Laboratory's multilingual toolchain, including translation editing, video translation, and digital presenters" loading="lazy"></a>
-        <figcaption>Interfaces from the collaborative multilingual platform. Image: Peng Cheng Laboratory. <a href="https://data-starcloud.pcl.ac.cn/data-app/multilingual">Source ↗</a></figcaption>
+        <video controls playsinline preload="none" width="1280" height="696" poster="{{ '/assets/img/projects/multilingual-system-poster.jpg' | relative_url }}" aria-label="Multilingual information generation system demo" aria-describedby="multilingual-demo-caption">
+          <source src="{{ '/assets/img/projects/multilingual-system-demo.mp4' | relative_url }}" type="video/mp4">
+          <a href="{{ '/assets/img/projects/multilingual-system-demo.mp4' | relative_url }}">Watch the system demo (MP4)</a>
+        </video>
+        <figcaption id="multilingual-demo-caption">Multilingual information generation with Jiuge: a system demonstration from the presentation, showing retrieval across languages and generated reports. <a href="{{ '/assets/img/projects/multilingual-system-demo.mp4' | relative_url }}" target="_blank" rel="noopener">Watch full-size ↗</a></figcaption>
       </figure>
     </article>
   </section>

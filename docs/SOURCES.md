@@ -130,3 +130,30 @@ product UI. The private certificate with contact details/signatures is not used.
 The public PCL whole-image platform screenshot remains beside the multilingual
 application, credited as partner platform interfaces. Two application narratives
 retain Qiyuan/Jiuge, language-service platforms and NPC/CPPCC workflows.
+
+
+## Replace partner-platform imagery with the original demo — 2026-10-31
+
+At the owner's request, the Star Cloud / PCL image and its outbound platform
+button are removed from the site and current source assets. Prior image-provenance
+notes above are historical; the partner screenshot is no longer published.
+
+The replacement is the actual embedded GIF from PPT slide 19,
+`ppt/media/image63.gif` (55,335,317 bytes; 1920 × 1248; 1,426 frames;
+23.77 seconds). Exact bytes match the supplied deck; SHA-256:
+`4270867764cc350ae3d2d9a33ace0c58bba93a824bdd22c6905b07e40fca6c6e`.
+The demo shows the Jiuge multilingual information generation interface and
+retrieval results in multiple languages. It is not labeled a Naohai translation
+UI. The application heading now includes both translation and information
+generation, while the narrative keeps the two laboratory collaborations distinct.
+
+Website media: `assets/img/projects/multilingual-system-demo.mp4`, H.264,
+1280 × 696, 20 fps, 23.75 seconds, 4,954,231 bytes. Encoded from the complete
+animation; crop `(x=0,y=204,width=1920,height=1044)` removes only the browser/
+desktop chrome and bookmarks, followed by proportional downscaling. No system
+content is relabeled or reconstructed. The poster is the same crop of original
+GIF frame 0. Native playback controls permit pause, seek and fullscreen. No
+autoplay; video downloads on demand (`preload="none"`). The original 55 MB GIF
+and full PPT remain outside the repository. The low-resolution group poster
+remains excluded; the writing figure is still an explicitly authored English
+application overview from slide 18, not a claimed system screenshot.
